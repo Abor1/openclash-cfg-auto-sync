@@ -1,4 +1,7 @@
 name: Dynamic Clash Sync
+permissions:
+  contents: write
+
 
 on:
   schedule:
