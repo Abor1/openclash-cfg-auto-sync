@@ -27,4 +27,5 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
 # OneDrive 网页版
 DOMAIN-SUFFIX,onedrive.live.com 
-
+# ten43.243626.xyz
+DOMAIN-SUFFIX,ten43.243626.xyz
