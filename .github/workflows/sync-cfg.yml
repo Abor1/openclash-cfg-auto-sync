@@ -20,6 +20,9 @@ jobs:
       - name: Sync config files
         run: |
           wget https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash.ini  -O Custom_Clash.ini
+          wget https://codeload.github.com/Aethersailor/Custom_OpenClash_Rules/zip/refs/heads/main -O Custom_OpenClash_Rules.zip
+          unzip Custom_OpenClash_Rules.zip
+
 
       - name: Commit changes
         run: |
