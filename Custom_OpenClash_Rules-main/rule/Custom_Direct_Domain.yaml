@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 130
+# TOTAL: 134
 
 payload:
   - '*quickconnect*'
@@ -15,7 +15,9 @@ payload:
   - '+.akamaihd.net'
   - '+.api.myip.com'
   - '+.armvm.com'
+  - '+.baiyishequ.com'
   - '+.bangumi.tv'
+  - '+.bdcb.cc'
   - '+.belimked.com'
   - '+.bgm.tv'
   - '+.chaz.fun'
@@ -24,6 +26,7 @@ payload:
   - '+.chii.in'
   - '+.chujingapp.com'
   - '+.cn-music.mefun.vip'
+  - '+.coros.com'
   - '+.crtyhr.com'
   - '+.dcgstd.com'
   - '+.ddsrem.com'
@@ -130,6 +133,7 @@ payload:
   - '+.wwwh.eu.org'
   - '+.xdqtech.com'
   - '+.xiaochuanyun.com'
+  - '+.xopenbeta.com'
   - '+.yunzuoye.net'
   - '+.zhongancloud.com'
   - '+.znnu.com'
