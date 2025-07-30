@@ -1,13 +1,14 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 138
+# TOTAL: 147
 
 payload:
   - DOMAIN-KEYWORD,quickconnect
   - DOMAIN-KEYWORD,synology
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,1996999.xyz
+  - DOMAIN-SUFFIX,51wanxue.com
   - DOMAIN-SUFFIX,52jiawei.com
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,7sef.com
@@ -46,6 +47,7 @@ payload:
   - DOMAIN-SUFFIX,fowep.com
   - DOMAIN-SUFFIX,freetv.top
   - DOMAIN-SUFFIX,fssbcc.top
+  - DOMAIN-SUFFIX,gaishitongshu.com
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,gdcucc.v1.mk
   - DOMAIN-SUFFIX,ggbond.org
@@ -54,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,gh.ddlc.top
   - DOMAIN-SUFFIX,gh.llkk.cc
   - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,ghfast.top
   - DOMAIN-SUFFIX,ghp.ci
   - DOMAIN-SUFFIX,ghproxy.cc
   - DOMAIN-SUFFIX,ghproxy.cfd
@@ -65,6 +68,7 @@ payload:
   - DOMAIN-SUFFIX,github.site
   - DOMAIN-SUFFIX,github.store
   - DOMAIN-SUFFIX,giveup.top
+  - DOMAIN-SUFFIX,goka.top
   - DOMAIN-SUFFIX,gsgltz.com
   - DOMAIN-SUFFIX,gsjkjt.com
   - DOMAIN-SUFFIX,gsnhcg.com
@@ -102,6 +106,7 @@ payload:
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,nn.ci
+  - DOMAIN-SUFFIX,ottai.com
   - DOMAIN-SUFFIX,plusde1.younoyes.com
   - DOMAIN-SUFFIX,plushk1.younoyes.com
   - DOMAIN-SUFFIX,plushk2.younoyes.com
@@ -116,11 +121,13 @@ payload:
   - DOMAIN-SUFFIX,qiaoxuesi.com
   - DOMAIN-SUFFIX,registry.dockermirror.com
   - DOMAIN-SUFFIX,rewards.bing.com
+  - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,scbaijia.com
   - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN-SUFFIX,seedpace.com
   - DOMAIN-SUFFIX,sgtv.ii00.cc
   - DOMAIN-SUFFIX,sixloy428.top
+  - DOMAIN-SUFFIX,sksight.com
   - DOMAIN-SUFFIX,snltty.com
   - DOMAIN-SUFFIX,sptv.ii00.cc
   - DOMAIN-SUFFIX,suyur.com
@@ -132,12 +139,14 @@ payload:
   - DOMAIN-SUFFIX,u-carloan.com
   - DOMAIN-SUFFIX,wwwh.eu.org
   - DOMAIN-SUFFIX,xdqtech.com
+  - DOMAIN-SUFFIX,xiankabao.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
   - DOMAIN-SUFFIX,xopenbeta.com
   - DOMAIN-SUFFIX,yunzuoye.net
   - DOMAIN-SUFFIX,zhongancloud.com
   - DOMAIN-SUFFIX,znnu.com
   - DOMAIN-SUFFIX,znztv.com
+  - DOMAIN-SUFFIX,zuobiao.press
   - IP-CIDR,108.174.48.100/32,no-resolve
   - IP-CIDR,218.78.7.16/32,no-resolve
   - IP-CIDR,5.5.5.5/32,no-resolve

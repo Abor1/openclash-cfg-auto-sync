@@ -1,13 +1,14 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 134
+# TOTAL: 143
 
 payload:
   - '*quickconnect*'
   - '*synology*'
   - '+.112114.xyz'
   - '+.1996999.xyz'
+  - '+.51wanxue.com'
   - '+.52jiawei.com'
   - '+.737698.xyz'
   - '+.7sef.com'
@@ -46,6 +47,7 @@ payload:
   - '+.fowep.com'
   - '+.freetv.top'
   - '+.fssbcc.top'
+  - '+.gaishitongshu.com'
   - '+.game.maj-soul.com'
   - '+.gdcucc.v1.mk'
   - '+.ggbond.org'
@@ -54,6 +56,7 @@ payload:
   - '+.gh.ddlc.top'
   - '+.gh.llkk.cc'
   - '+.ghcr.io'
+  - '+.ghfast.top'
   - '+.ghp.ci'
   - '+.ghproxy.cc'
   - '+.ghproxy.cfd'
@@ -65,6 +68,7 @@ payload:
   - '+.github.site'
   - '+.github.store'
   - '+.giveup.top'
+  - '+.goka.top'
   - '+.gsgltz.com'
   - '+.gsjkjt.com'
   - '+.gsnhcg.com'
@@ -102,6 +106,7 @@ payload:
   - '+.msftconnecttest.com'
   - '+.msftncsi.com'
   - '+.nn.ci'
+  - '+.ottai.com'
   - '+.plusde1.younoyes.com'
   - '+.plushk1.younoyes.com'
   - '+.plushk2.younoyes.com'
@@ -116,11 +121,13 @@ payload:
   - '+.qiaoxuesi.com'
   - '+.registry.dockermirror.com'
   - '+.rewards.bing.com'
+  - '+.sanligu.top'
   - '+.scbaijia.com'
   - '+.seaflysoft.com'
   - '+.seedpace.com'
   - '+.sgtv.ii00.cc'
   - '+.sixloy428.top'
+  - '+.sksight.com'
   - '+.snltty.com'
   - '+.sptv.ii00.cc'
   - '+.suyur.com'
@@ -132,9 +139,11 @@ payload:
   - '+.u-carloan.com'
   - '+.wwwh.eu.org'
   - '+.xdqtech.com'
+  - '+.xiankabao.com'
   - '+.xiaochuanyun.com'
   - '+.xopenbeta.com'
   - '+.yunzuoye.net'
   - '+.zhongancloud.com'
   - '+.znnu.com'
   - '+.znztv.com'
+  - '+.zuobiao.press'
