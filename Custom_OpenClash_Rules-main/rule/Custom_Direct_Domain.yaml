@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 143
+# TOTAL: 147
 
 payload:
   - '*quickconnect*'
@@ -74,6 +74,7 @@ payload:
   - '+.gsnhcg.com'
   - '+.gsstic.com'
   - '+.gxnnjidingkeji.top'
+  - '+.gzybao.com'
   - '+.hbcof.com'
   - '+.hbctic.com'
   - '+.hexiny.com'
@@ -105,6 +106,7 @@ payload:
   - '+.members.3322.org'
   - '+.msftconnecttest.com'
   - '+.msftncsi.com'
+  - '+.mslmc.net'
   - '+.nn.ci'
   - '+.ottai.com'
   - '+.plusde1.younoyes.com'
@@ -137,11 +139,13 @@ payload:
   - '+.tumukaoyan.com'
   - '+.tuxing.art'
   - '+.u-carloan.com'
+  - '+.warmheart.top'
   - '+.wwwh.eu.org'
   - '+.xdqtech.com'
   - '+.xiankabao.com'
   - '+.xiaochuanyun.com'
   - '+.xopenbeta.com'
+  - '+.yiso.fun'
   - '+.yunzuoye.net'
   - '+.zhongancloud.com'
   - '+.znnu.com'
