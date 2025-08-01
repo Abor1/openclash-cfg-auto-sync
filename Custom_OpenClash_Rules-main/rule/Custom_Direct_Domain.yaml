@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 147
+# TOTAL: 152
 
 payload:
   - '*quickconnect*'
@@ -10,8 +10,10 @@ payload:
   - '+.1996999.xyz'
   - '+.51wanxue.com'
   - '+.52jiawei.com'
+  - '+.52met.com'
   - '+.737698.xyz'
   - '+.7sef.com'
+  - '+.985hezi.com'
   - '+.afuns.me'
   - '+.akamaihd.net'
   - '+.api.myip.com'
@@ -41,6 +43,7 @@ payload:
   - '+.dockerpull.org'
   - '+.dockerpull.pw'
   - '+.dushe1.app'
+  - '+.englibrary.com'
   - '+.epg.aptv.app'
   - '+.epg.v1.mk'
   - '+.flingtrainer.com'
@@ -107,6 +110,7 @@ payload:
   - '+.msftconnecttest.com'
   - '+.msftncsi.com'
   - '+.mslmc.net'
+  - '+.myshopex.com'
   - '+.nn.ci'
   - '+.ottai.com'
   - '+.plusde1.younoyes.com'
@@ -140,6 +144,7 @@ payload:
   - '+.tuxing.art'
   - '+.u-carloan.com'
   - '+.warmheart.top'
+  - '+.webs.vc'
   - '+.wwwh.eu.org'
   - '+.xdqtech.com'
   - '+.xiankabao.com'
