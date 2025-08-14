@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 171
+# TOTAL: 174
 
 payload:
   - '*quickconnect*'
@@ -15,6 +15,7 @@ payload:
   - '+.737698.xyz'
   - '+.7sef.com'
   - '+.985hezi.com'
+  - '+.adobe.com'
   - '+.afuns.me'
   - '+.akamaihd.net'
   - '+.api.myip.com'
@@ -145,6 +146,7 @@ payload:
   - '+.snfox.com'
   - '+.snltty.com'
   - '+.sptv.ii00.cc'
+  - '+.starlink.uno'
   - '+.suyur.com'
   - '+.sxlljm.com'
   - '+.tangguobaohe.com'
@@ -167,6 +169,7 @@ payload:
   - '+.xiankabao.com'
   - '+.xiaochuanyun.com'
   - '+.xixih.cc'
+  - '+.xn--4kq62z5rby2qupq9ub.top'
   - '+.xopenbeta.com'
   - '+.yiso.fun'
   - '+.yunzuoye.net'

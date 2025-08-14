@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 175
+# TOTAL: 178
 
 payload:
   - DOMAIN-KEYWORD,quickconnect
@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,7sef.com
   - DOMAIN-SUFFIX,985hezi.com
+  - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,api.myip.com
@@ -145,6 +146,7 @@ payload:
   - DOMAIN-SUFFIX,snfox.com
   - DOMAIN-SUFFIX,snltty.com
   - DOMAIN-SUFFIX,sptv.ii00.cc
+  - DOMAIN-SUFFIX,starlink.uno
   - DOMAIN-SUFFIX,suyur.com
   - DOMAIN-SUFFIX,sxlljm.com
   - DOMAIN-SUFFIX,tangguobaohe.com
@@ -167,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,xiankabao.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
   - DOMAIN-SUFFIX,xixih.cc
+  - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,xopenbeta.com
   - DOMAIN-SUFFIX,yiso.fun
   - DOMAIN-SUFFIX,yunzuoye.net
