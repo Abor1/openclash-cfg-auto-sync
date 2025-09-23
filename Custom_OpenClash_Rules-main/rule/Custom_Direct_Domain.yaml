@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 268
+# TOTAL: 272
 
 payload:
   - '*m-team*'
@@ -24,6 +24,7 @@ payload:
   - '+.985hezi.com'
   - '+.998tool.com'
   - '+.adobe.com'
+  - '+.afeica.com'
   - '+.afuns.me'
   - '+.aistudio-app.com'
   - '+.akamaihd.net'
@@ -68,6 +69,7 @@ payload:
   - '+.dothantech.com'
   - '+.douqq.com'
   - '+.dushe1.app'
+  - '+.einfo-tech.com'
   - '+.englibrary.com'
   - '+.epg.aptv.app'
   - '+.epg.v1.mk'
@@ -201,6 +203,8 @@ payload:
   - '+.pool.ntp.org'
   - '+.powershellgallery.com'
   - '+.privateapi.xyz'
+  - '+.ptl.gs'
+  - '+.ptlgs.org'
   - '+.qiankunshopping.com'
   - '+.qianuni.com'
   - '+.qiaoxuesi.com'
