@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 379
+# TOTAL: 383
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -95,6 +95,7 @@ payload:
   - DOMAIN-SUFFIX,drvceo.com
   - DOMAIN-SUFFIX,dskj-ops.com
   - DOMAIN-SUFFIX,dushe1.app
+  - DOMAIN-SUFFIX,eagsen.com
   - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-SUFFIX,einfo-tech.com
   - DOMAIN-SUFFIX,englibrary.com
@@ -197,6 +198,7 @@ payload:
   - DOMAIN-SUFFIX,itptg.com
   - DOMAIN-SUFFIX,jfjt.cc
   - DOMAIN-SUFFIX,jh96095.com
+  - DOMAIN-SUFFIX,jiliuwang.net
   - DOMAIN-SUFFIX,jingheiot.com
   - DOMAIN-SUFFIX,jiqw.com
   - DOMAIN-SUFFIX,jsdelivr.net
@@ -206,6 +208,7 @@ payload:
   - DOMAIN-SUFFIX,kaijiejinrong.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,kejiweixun.com
   - DOMAIN-SUFFIX,keyoo.com
   - DOMAIN-SUFFIX,kgithub.com
   - DOMAIN-SUFFIX,kit327.com
@@ -348,6 +351,7 @@ payload:
   - DOMAIN-SUFFIX,xiankabao.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
   - DOMAIN-SUFFIX,xiberia.net
+  - DOMAIN-SUFFIX,ximogo.com
   - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,xixih.cc
   - DOMAIN-SUFFIX,xkkapk.com
