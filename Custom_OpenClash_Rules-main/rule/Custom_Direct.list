@@ -66,8 +66,8 @@ DOMAIN-SUFFIX,members.3322.org
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
 # Kaspersky
-DOMAIN-SUFFIX,kaspersky.com
-DOMAIN-SUFFIX,kaspersky-labs.com
+#DOMAIN-SUFFIX,kaspersky.com
+#DOMAIN-SUFFIX,kaspersky-labs.com
 # Akamai CDN
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
@@ -274,6 +274,8 @@ DOMAIN-SUFFIX,axuex.top
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Telegram user: Aethersailor / Date: 2026-03-05 10:48:07
+DOMAIN-SUFFIX,00333118.com
 # 特力科技 / add by Telegram user: Evan / Date: 2026-02-28 10:00:18
 DOMAIN-SUFFIX,z-tek.com
 # 小说网站 / add by Telegram user: 晨曦 / Date: 2026-02-27 22:26:08
