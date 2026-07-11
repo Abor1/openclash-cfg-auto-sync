@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 641
+# TOTAL: 645
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -182,6 +182,7 @@ payload:
   - DOMAIN-SUFFIX,fdfinvoice.com
   - DOMAIN-SUFFIX,feihengip.com
   - DOMAIN-SUFFIX,feizhiyi.com
+  - DOMAIN-SUFFIX,fengda.me
   - DOMAIN-SUFFIX,fengsutb.com
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fjpit.com
@@ -209,6 +210,7 @@ payload:
   - DOMAIN-SUFFIX,gdcucc.v1.mk
   - DOMAIN-SUFFIX,geektool.top
   - DOMAIN-SUFFIX,gegeselect.hk
+  - DOMAIN-SUFFIX,gelaiyun.net
   - DOMAIN-SUFFIX,ggbond.org
   - DOMAIN-SUFFIX,gh-proxy.com
   - DOMAIN-SUFFIX,gh.con.sh
@@ -290,6 +292,7 @@ payload:
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,hzqsn.com
   - DOMAIN-SUFFIX,icvcs.com
+  - DOMAIN-SUFFIX,idazhe.net
   - DOMAIN-SUFFIX,idsduf.com
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,ifengmap.com
@@ -446,6 +449,7 @@ payload:
   - DOMAIN-SUFFIX,qiaoqiaoyun.com
   - DOMAIN-SUFFIX,qiaoxuesi.com
   - DOMAIN-SUFFIX,qinglue.com
+  - DOMAIN-SUFFIX,qjmotorlink.com
   - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,quanxinfu.com
   - DOMAIN-SUFFIX,qweapi.com
