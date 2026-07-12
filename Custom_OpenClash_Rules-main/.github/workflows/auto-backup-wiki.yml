@@ -6,7 +6,11 @@ on:
     - cron: '*/30 * * * *'
 
 permissions:
+  actions: write
   contents: write
+
+concurrency:
+  group: main-writers
 
 jobs:
   backup-wiki-root:
@@ -15,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout main branch for wiki backup
-        uses: actions/checkout@v6
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
         with:
           ref: main
           fetch-depth: 0
@@ -24,7 +28,7 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git clone https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.wiki.git _wiki
+          git clone "https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.wiki.git" _wiki
 
       - name: Clean old wiki backup
         run: |
@@ -54,9 +58,6 @@ jobs:
       - name: Copy Home.md to wiki/README.md with replacements
         run: |
           cp _wiki/Home.md wiki/README.md
-
-          # 替换 doc 路径
-          sed -i 's#](doc/#](../doc/#g' wiki/README.md
 
           # 替换 wiki 页面链接
           while IFS='|' read -r src dst; do
@@ -92,9 +93,6 @@ jobs:
             if [ -f "$src_file" ]; then
               cp "$src_file" "$dst_file"
 
-              # 替换 doc 路径
-              sed -i 's#](doc/#](../doc/#g' "$dst_file"
-
               # 替换 wiki 页面链接
               while IFS='|' read -r src dst; do
                 [[ "$src" == LINK_MAP_START ]] && continue
@@ -122,5 +120,9 @@ jobs:
           if ! git diff --cached --quiet; then
             commit_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
             git commit -m "chore(wiki): auto backup Wiki at ${commit_time} UTC+8"
-            git push origin main
+            git pull --rebase origin main
+            git push origin HEAD:main
+            gh workflow run pages.yml --ref main
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

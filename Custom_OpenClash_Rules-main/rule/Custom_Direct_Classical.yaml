@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 645
+# TOTAL: 649
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -291,6 +291,7 @@ payload:
   - DOMAIN-SUFFIX,hybiome.com
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,hzqsn.com
+  - DOMAIN-SUFFIX,ibnjl.shop
   - DOMAIN-SUFFIX,icvcs.com
   - DOMAIN-SUFFIX,idazhe.net
   - DOMAIN-SUFFIX,idsduf.com
@@ -407,6 +408,7 @@ payload:
   - DOMAIN-SUFFIX,nkxingxh.top
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,nodcloud.com
+  - DOMAIN-SUFFIX,noyer.eu.org
   - DOMAIN-SUFFIX,nxog.top
   - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,ok321.top
@@ -554,6 +556,7 @@ payload:
   - DOMAIN-SUFFIX,we-stats.com
   - DOMAIN-SUFFIX,webs.vc
   - DOMAIN-SUFFIX,wenyi188.com
+  - DOMAIN-SUFFIX,wera.eu.org
   - DOMAIN-SUFFIX,weshape3d.com
   - DOMAIN-SUFFIX,wewillpro.com
   - DOMAIN-SUFFIX,wildfirechat.net
@@ -638,6 +641,7 @@ payload:
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+  - DST-PORT,7844
   - SRC-PORT,41641
   - IP-CIDR,108.174.48.100/32,no-resolve
   - IP-CIDR,198.41.192.0/24,no-resolve

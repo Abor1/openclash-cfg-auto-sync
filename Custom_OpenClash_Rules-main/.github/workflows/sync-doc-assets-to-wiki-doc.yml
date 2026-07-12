@@ -9,7 +9,11 @@ on:
       - 'doc/**'
 
 permissions:
+  actions: write
   contents: write
+
+concurrency:
+  group: main-writers
 
 jobs:
   sync-doc-assets:
@@ -18,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
         with:
           ref: main
           fetch-depth: 0
@@ -36,5 +40,9 @@ jobs:
 
           if ! git diff --cached --quiet; then
             git commit -m "chore(doc): sync doc assets to wiki"
-            git push origin main
+            git pull --rebase origin main
+            git push origin HEAD:main
+            gh workflow run pages.yml --ref main
           fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

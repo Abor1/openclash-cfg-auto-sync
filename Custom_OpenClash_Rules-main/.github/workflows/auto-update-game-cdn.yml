@@ -9,19 +9,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: main-writers
+
 jobs:
   update-game-cdn:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v6
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
         with:
           ref: main
           fetch-depth: 0
       
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.11'
       
@@ -29,16 +32,17 @@ jobs:
         run: |
           echo "::group::Running generation script"
           python py/generate_game_cdn.py
+          python py/generate_game_cdn.py --check
           echo "::endgroup::"
       
       - name: Check for changes
         id: check_changes
         run: |
           if git diff --quiet rule/Game_Download_CDN.list; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes detected in Game_Download_CDN.list"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Changes detected in Game_Download_CDN.list"
           fi
       
@@ -49,7 +53,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add rule/Game_Download_CDN.list
           git commit -m "chore(rule): auto-update Game_Download_CDN.list from upstream"
-          git push origin main
+          git pull --rebase origin main
+          git push origin HEAD:main
       
       - name: No changes
         if: steps.check_changes.outputs.changed == 'false'
