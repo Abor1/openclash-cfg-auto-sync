@@ -4,6 +4,7 @@ import unittest
 import unittest.mock
 from pathlib import Path
 
+import generate_game_cdn
 import generate_rules
 import update_encrypted_dns
 
@@ -122,6 +123,53 @@ class DerivedRuleGenerationTests(unittest.TestCase):
             r"  - 'DOMAIN-REGEX,^dns[0-9]{1,3}\.example\.com$'",
             rendered,
         )
+
+
+class GameCdnGenerationTests(unittest.TestCase):
+    def test_converts_supported_upstream_rule_types_and_attributes(self) -> None:
+        cases = {
+            "example.com @cn": "DOMAIN-SUFFIX,example.com",
+            "full:www.example.com": "DOMAIN,www.example.com",
+            "keyword:download": "DOMAIN-KEYWORD,download",
+            r"regexp:^cdn[0-9]+\.example\.com$": (
+                r"DOMAIN-REGEX,^cdn[0-9]+\.example\.com$"
+            ),
+        }
+        for source, expected in cases.items():
+            with self.subTest(source=source):
+                self.assertEqual(generate_game_cdn.convert_line(source), expected)
+
+    def test_deduplicates_rules_without_leaking_duplicate_comments(self) -> None:
+        converted = generate_game_cdn.generate_rules(
+            "# kept\nexample.com\n# duplicate-only\nexample.com\nfull:www.example.com\n"
+        )
+        self.assertEqual(
+            converted,
+            ["# kept", "DOMAIN-SUFFIX,example.com"],
+        )
+
+    def test_merges_steam_rules_with_semantic_deduplication(self) -> None:
+        converted = generate_game_cdn.generate_rules(
+            "example.com\n",
+            (
+                "DOMAIN,www.example.com\n"
+                "DOMAIN-SUFFIX,EXAMPLE.COM.\n"
+                "IP-CIDR,192.0.2.128/25\n"
+                "IP-CIDR,192.0.2.0/24,no-resolve\n"
+            ),
+        )
+        self.assertEqual(
+            converted,
+            [
+                "DOMAIN-SUFFIX,example.com",
+                generate_game_cdn.STEAM_SOURCE_COMMENT,
+                "IP-CIDR,192.0.2.0/24,no-resolve",
+            ],
+        )
+
+    def test_rejects_unexpanded_include(self) -> None:
+        with self.assertRaisesRegex(ValueError, "include"):
+            generate_game_cdn.convert_line("include:another-list")
 
 
 if __name__ == "__main__":

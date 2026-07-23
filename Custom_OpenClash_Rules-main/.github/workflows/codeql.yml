@@ -6,6 +6,7 @@ on:
     # CodeQL 仅分析 Actions 与 Python；配置、规则和 Wiki 变更无需扫描。
     paths:
       - ".github/workflows/**"
+      - ".github/scripts/**"
       - ".github/dependabot.yml"
       - "py/**"
       - "requirements*.txt"
@@ -13,6 +14,7 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/**"
+      - ".github/scripts/**"
       - ".github/dependabot.yml"
       - "py/**"
       - "requirements*.txt"
@@ -50,13 +52,13 @@ jobs:
           fetch-depth: 2
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@e0647621c2984b5ed2f768cb892365bf2a616ad1 # v4
+        uses: github/codeql-action/init@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4
         with:
           languages: ${{ matrix.language }}
           build-mode: ${{ matrix.build-mode }}
           queries: security-extended,security-and-quality
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@e0647621c2984b5ed2f768cb892365bf2a616ad1 # v4
+        uses: github/codeql-action/analyze@e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81 # v4
         with:
           category: "/language:${{ matrix.language }}"
