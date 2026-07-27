@@ -109,6 +109,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🌐 社交媒体"
     type: select
     proxies:
@@ -130,6 +132,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "📞 Talkatone"
     type: select
     proxies:
@@ -151,6 +155,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🚀 GitHub"
     type: select
     proxies:
@@ -173,6 +179,8 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
+    use:
+      - provider1
   - name: "🤖 ChatGPT"
     type: select
     proxies:
@@ -194,6 +202,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🤖 Copilot"
     type: select
     proxies:
@@ -215,6 +225,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🤖 AI服务"
     type: select
     proxies:
@@ -236,6 +248,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎶 TikTok"
     type: select
     proxies:
@@ -257,6 +271,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "📹 YouTube"
     type: select
     proxies:
@@ -278,6 +294,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎥 Netflix"
     type: select
     proxies:
@@ -299,6 +317,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎥 DisneyPlus"
     type: select
     proxies:
@@ -320,6 +340,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎥 HBO"
     type: select
     proxies:
@@ -341,6 +363,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎥 PrimeVideo"
     type: select
     proxies:
@@ -362,6 +386,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎥 AppleTV+"
     type: select
     proxies:
@@ -384,6 +410,8 @@ proxy-groups:
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
       - "🎯 全球直连"
+    use:
+      - provider1
   - name: "🎥 Emby"
     type: select
     proxies:
@@ -406,6 +434,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎻 Spotify"
     type: select
     proxies:
@@ -428,12 +458,16 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "📺 Bahamut"
     type: select
     proxies:
       - "🇼🇸 台湾节点"
       - "🚀 手动选择"
       - "🎯 全球直连"
+    use:
+      - provider1
   - name: "🌎 国外媒体"
     type: select
     proxies:
@@ -455,6 +489,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🛒 国外电商"
     type: select
     proxies:
@@ -476,6 +512,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🪙 加密货币"
     type: select
     proxies:
@@ -497,6 +535,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "📢 谷歌FCM"
     type: select
     proxies:
@@ -518,6 +558,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🇬 谷歌服务"
     type: select
     proxies:
@@ -539,6 +581,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🍎 苹果服务"
     type: select
     proxies:
@@ -561,6 +605,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "Ⓜ️ 微软服务"
     type: select
     proxies:
@@ -583,6 +629,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "💾 OneDrive"
     type: select
     proxies:
@@ -605,6 +653,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "💳 PayPal"
     type: select
     proxies:
@@ -627,6 +677,33 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+  # 🎮 游戏平台：旧版配置，保留用于快速回退
+  # 如需恢复，请注释下方当前配置，并取消注释旧组块
+#   - name: "🎮 游戏平台"
+#     type: select
+#     proxies:
+#       - "🎯 全球直连"
+#       - "🚀 手动选择"
+#       - "♻️ 自动选择"
+#       - "🇭🇰 香港节点"
+#       - "🇺🇸 美国节点"
+#       - "🇯🇵 日本节点"
+#       - "🇸🇬 新加坡节点"
+#       - "🇼🇸 台湾节点"
+#       - "🇰🇷 韩国节点"
+#       - "🇨🇦 加拿大节点"
+#       - "🇬🇧 英国节点"
+#       - "🇫🇷 法国节点"
+#       - "🇩🇪 德国节点"
+#       - "🇳🇱 荷兰节点"
+#       - "🇹🇷 土耳其节点"
+#       - "🇷🇺 俄罗斯节点"
+#       - "🌐 其他地区"
+#       - "🏠 家宽节点"
+#       - "🐢 低倍率节点"
+
+    use:
+      - provider1
   - name: "🎮 游戏平台"
     type: select
     proxies:
@@ -649,6 +726,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🎮 Steam"
     type: select
     proxies:
@@ -671,6 +750,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "⏬ PT站点"
     type: select
     proxies:
@@ -693,6 +774,8 @@ proxy-groups:
       - "🚀 手动选择"
       - "♻️ 自动选择"
       - "🎯 全球直连"
+    use:
+      - provider1
   - name: "🚀 测速工具"
     type: select
     proxies:
@@ -715,6 +798,32 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
+  - name: "🌍 国外域名"
+    type: select
+    proxies:
+      - "🎯 全球直连"
+      - "🚀 手动选择"
+      - "♻️ 自动选择"
+      - "🇭🇰 香港节点"
+      - "🇺🇸 美国节点"
+      - "🇯🇵 日本节点"
+      - "🇸🇬 新加坡节点"
+      - "🇼🇸 台湾节点"
+      - "🇰🇷 韩国节点"
+      - "🇨🇦 加拿大节点"
+      - "🇬🇧 英国节点"
+      - "🇫🇷 法国节点"
+      - "🇩🇪 德国节点"
+      - "🇳🇱 荷兰节点"
+      - "🇹🇷 土耳其节点"
+      - "🇷🇺 俄罗斯节点"
+      - "🌐 其他地区"
+      - "🏠 家宽节点"
+      - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🐟 漏网之鱼"
     type: select
     proxies:
@@ -737,6 +846,8 @@ proxy-groups:
       - "🌐 其他地区"
       - "🏠 家宽节点"
       - "🐢 低倍率节点"
+    use:
+      - provider1
   - name: "🔀 非标端口"
     type: select
     proxies:
@@ -980,12 +1091,15 @@ rules:
   - "GEOSITE,category-pt,⏬ PT站点"
   - "GEOSITE,paypal,💳 PayPal"
   - "GEOSITE,category-ecommerce,🛒 国外电商"
+  - "GEOSITE,category-cryptocurrency,🪙 加密货币"
   - "GEOSITE,gfw,🚀 手动选择"
   - "GEOIP,telegram,💬 即时通讯,no-resolve"
   - "GEOIP,twitter,🌐 社交媒体,no-resolve"
   - "GEOIP,facebook,🌐 社交媒体,no-resolve"
   - "GEOIP,google,🇬 谷歌服务,no-resolve"
   - "GEOIP,netflix,🎥 Netflix,no-resolve"
+  # GFW 及专用规则未命中的国外域名默认直连，可在策略组中切换代理。
+  - "GEOSITE,geolocation-!cn,🌍 国外域名"
   - "GEOSITE,cn,🎯 全球直连"
   - "GEOIP,cn,🎯 全球直连,no-resolve"
   - "RULE-SET,Nonstandard_Port_Direct,🔀 非标端口"
