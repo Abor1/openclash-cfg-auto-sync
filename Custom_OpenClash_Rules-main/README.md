@@ -2,13 +2,7 @@
   🚀 Custom_OpenClash_Rules
 </h1>
 
-<p align="center"><b>OpenClash 配置方案、订阅转换模板、配置文件、规则文件、实用脚本与覆写模块资源</b></p>
-
-<p align="center">
-  <a href="DO_NOT_README.md">English</a>
-  &nbsp;|&nbsp;
-  <b>简体中文</b>
-</p>
+<p align="center"><b>OpenClash 配置方案、订阅转换模板、YAML 配置、规则文件、实用脚本与覆写模块资源</b></p>
 
 <p align="center">
   <a href="https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki">📖 项目 Wiki</a>
@@ -16,6 +10,10 @@
   <a href="cfg/">🧩 配置资源</a>
   &nbsp;•&nbsp;
   <a href="rule/">🗂️ 规则文件</a>
+  &nbsp;•&nbsp;
+  <a href="overwrite/">⚙️ 覆写模块</a>
+  &nbsp;•&nbsp;
+  <a href="shell/">🛠️ 实用脚本</a>
 </p>
 
 <p align="center">
@@ -32,11 +30,11 @@
 
 ## 📖 关于本项目
 
-**Custom_OpenClash_Rules** 是一个围绕 [OpenClash](https://github.com/vernesong/OpenClash) 整理和维护的资源仓库。
+**Custom_OpenClash_Rules** 是一个围绕 [OpenClash](https://github.com/vernesong/OpenClash) 整理和维护的综合资源仓库。
 
-本项目提供 OpenClash 配置方案、订阅转换模板、YAML 配置文件、规则文件、实用脚本、覆写模块资源及相关文档，帮助用户更方便地部署、维护和调整 OpenClash。
+本项目提供 OpenClash 配置方案、订阅转换模板、YAML 配置文件、规则文件、实用脚本、远程覆写模块及相关文档，帮助用户更方便地部署、维护和调整 OpenClash。
 
-根 README 仅作为项目首页和资源导航。各目录中的具体文件、用途、区别及使用方法，请查看对应目录内的 README 或项目 Wiki。
+根 README 作为项目首页和资源导航，仅介绍各类资源的定位与入口。具体文件、版本区别、参数和使用方法，请进入对应目录查看其自动展示的 README。
 
 > [!NOTE]
 > 项目 Wiki 目前仅提供中文版本。
@@ -48,10 +46,10 @@
 | 需求 | 建议入口 |
 | --- | --- |
 | 首次配置或系统了解 OpenClash | [项目 Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) |
-| 使用订阅转换模板或 YAML 配置 | [`cfg/`](cfg/) |
-| 为现有配置补充规则 | [`rule/`](rule/) |
-| 使用 OpenClash 相关脚本 | [`shell/`](shell/) |
-| 使用远程覆写模块资源 | [`overwrite/`](overwrite/) |
+| 使用订阅转换模板、YAML 配置或远程 YAML 配置模块 | [`cfg/`](cfg/) |
+| 为现有配置补充或修正规则 | [`rule/`](rule/) |
+| 使用单功能远程覆写模块 | [`overwrite/`](overwrite/) |
+| 安装、更新或检测 OpenClash | [`shell/`](shell/) |
 | 排查常见故障 | [故障排除](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4) |
 
 ---
@@ -60,63 +58,90 @@
 
 ### 📚 配置方案与文档
 
-项目 Wiki 是本仓库最核心的内容之一，提供一套围绕 OpenWrt 与 OpenClash 整理的完整配置思路。它并非简单罗列参数，而是结合实际使用场景说明各项设置之间的关系、配置目的及可能产生的影响，帮助用户在理解基本原理的基础上完成部署和维护。
+项目 Wiki 是本仓库的核心内容之一，提供一套围绕 OpenWrt 与 OpenClash 整理的完整配置思路。
 
-方案以 OpenClash 的实际使用流程为主线，重点覆盖：
+内容重点包括：
 
-- **OpenClash 基础配置与透明分流**：围绕 `Fake-IP` 模式、流量接管、规则匹配和策略选择，建立完整的 OpenClash 使用框架。
-- **DNS 策略与泄漏风险控制**：说明直连与非直连流量的解析路径，尽量减少不必要的 DNS 绕行、解析异常及泄漏风险。
-- **直连访问优化**：结合 OpenClash 的“绕过中国大陆”等功能，使适合直连的域名与 IP 尽量保持本地解析和直接访问，降低 OpenClash 对直连流量的额外影响。
-- **IPv6 配置与兼容**：提供 OpenWrt 与 OpenClash 的 IPv6 配置思路，帮助用户在保留 IPv6 连通性的同时正确进行分流。
-- **故障排除与补充教程**：整理 OpenClash 无法启动、网络异常、分流不符合预期、部分网站无法访问等常见问题，并提供相关补充说明。
+- **OpenClash 基础配置与透明分流**：运行模式、流量接管、规则匹配和策略选择；
+- **DNS 策略与泄漏风险控制**：直连与代理流量的解析路径、DNS 劫持和规则跟随；
+- **直连访问优化**：结合大陆域名与 IP 绕过机制，减少不必要的代理处理；
+- **IPv6 配置与兼容**：在保留 IPv6 连通性的同时正确完成分流与接管；
+- **故障排除与补充教程**：覆盖启动失败、网络异常、规则命中异常等常见问题。
 
-整套方案力求主要依靠 OpenClash 自身功能完成配置，避免引入不必要的多层 DNS 插件组合。大部分操作均可通过 OpenClash 的 LuCI 管理界面完成，既可作为初次配置的操作指南，也可作为后续排查和优化配置的参考资料。
-
-> [!TIP]
-> 建议首次使用本项目时先完整阅读 Wiki，再选择下方的配置资源。Wiki 负责说明“为什么这样配置”，配置资源负责提供可复用的落地示例。
+Wiki 负责解释“为什么这样配置”，各资源目录负责提供可以直接使用或修改的落地文件。
 
 **入口：** [项目 Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki)
 
+---
+
 ### 🧩 配置资源
 
-`cfg/` 是本项目另一项核心内容，用于将 Wiki 中的配置思路转化为可直接参考和复用的配置资源。目录内提供订阅转换模板、YAML 配置及配套说明，适合希望快速生成 OpenClash 配置，或需要在现有配置基础上进行调整的用户。
+[`cfg/`](cfg/) 用于将上述 Wiki 中的配置思路落实为可直接使用的完整配置资源，具体包括：
 
-> [!TIP]
-> 本项目订阅转换模板的远程链接已收录于 OpenClash 内置的模板列表，可直接选择，无需手动填写。
+| 资源 | 所在位置 | 主要用途 |
+| --- | --- | --- |
+| **订阅转换模板** | [`cfg/`](cfg/) | 通过在线订阅转换生成完整 OpenClash 配置 |
+| **YAML 配置文件** | [`cfg/yaml/`](cfg/yaml/) | 下载后手工修改并导入 OpenClash |
+| **YAML 对应的远程覆写模块** | [`overwrite/yaml/`](overwrite/yaml/) | 自动下载对应 YAML、写入订阅并切换配置 |
 
-这些配置资源主要关注以下方面：
+> [!IMPORTANT]
+> 本项目提供三种完整配置的使用方式：
+>
+> 1. **订阅转换**；
+> 2. **远程 YAML 覆写模块**；
+> 3. **下载 YAML 后手工修改并导入**。
+>
+> 选择相同配置版本且未自行修改内容时，三种方式的**策略组结构、规则引用、规则顺序和分流逻辑完全对齐**，区别仅在于配置的获取和维护方式。
 
-- **订阅转换与配置生成**：通过订阅转换模板，将节点订阅整理为适用于 OpenClash 的配置结构，减少手工编写和维护配置的工作量。
-- **不同复杂度的策略设计**：提供定位不同的配置方案，在策略组丰富程度、使用复杂度和维护成本之间进行取舍，便于用户按实际需求选择。
-- **常用服务与应用分流**：围绕常见网络服务、应用和平台组织策略组及规则，并保留进一步扩展和自定义的空间。
-- **与 Wiki 配置思路保持一致**：配置资源围绕 `Fake-IP`、DNS 策略、直连访问和规则分流进行设计，适合与本项目 Wiki 配合使用。
-- **规则及数据更新能力**：通过引用上游规则和 GEO 数据，降低手工维护大量时效性规则的成本；部分配置同时针对下载流量、游戏平台等场景提供差异化处理思路。
-- **YAML 配置参考**：提供完整配置结构示例，便于理解 OpenClash 配置文件的组成，也可作为自行修改和构建配置的基础。
+全部自定义订阅转换模板均已收录于 OpenClash 插件内置的订阅转换模板列表，常规用户可直接在 OpenClash 内置模板列表中选择，无需手工填写模板地址。
 
-根 README 不逐一列出目录中的具体模板和配置文件。各配置方案的定位、区别、使用地址及注意事项，请以 `cfg/` 目录中的 README 为准。
+本项目提供标准版、轻量版、极简 GFW 版、重度分流版及对应 Fallback 版本，并提供自建节点相关 YAML。版本定位、参数、远程地址和详细操作请进入相应目录查看。
 
-**入口：** [`cfg/`](cfg/)
+**入口：**
+
+- 订阅转换模板：[`cfg/`](cfg/)
+- YAML 配置文件：[`cfg/yaml/`](cfg/yaml/)
+- YAML 远程覆写模块：[`overwrite/yaml/`](overwrite/yaml/)
+
+---
 
 ### 🗂️ 规则文件
 
-提供本项目制作的、可按需使用的各种格式规则文件，具体分类和使用方式以目录说明为准。
+[`rule/`](rule/) 存放本项目维护的冷门规则及其多格式派生文件，包括自定义直连、代理、Steam CDN、游戏下载 CDN、加密 DNS 等内容。
+
+规则会根据用途生成 `.list`、Classical YAML、Domain YAML、IP-CIDR YAML 和 MRS 等格式，供订阅转换模板或 Mihomo Rule Provider 使用。
+
+直连规则由全体用户共同参与维护，如希望将符合要求的域名纳入本项目规则，可通过 GitHub Issues、Pull Requests，或访问 [RULE BOT](https://telegram.me/asailor_rulebot) 提交。。
 
 **入口：** [`rule/`](rule/)
 
-> [!TIP]
-> 直连、代理、Steam 规则等文件已加入本项目的分流规则文件
+> [!NOTE]
+> 维护者会根据实际情况，将本项目收集到的规则内容向上游相关规则项目提交。
+
+---
 
 ### 🛠️ 实用脚本
 
-提供 OpenClash 安装、更新、检测及维护相关脚本。
+[`shell/`](shell/) 提供 OpenClash 安装、更新、CPU 架构检测及相关维护脚本，支持 OpenWrt、ImmortalWrt，适配 OPKG 和 APK 包管理器等环境。
+
+脚本可能涉及软件源临时切换、插件覆盖重装、UCI 设置和 OpenClash 内置更新流程。运行前请进入目录阅读完整说明。
 
 **入口：** [`shell/`](shell/)
 
+---
+
 ### ⚙️ 覆写模块资源
 
-提供 OpenClash 远程覆写模块相关资源和说明。本目录引用外部维护项目，具体内容与使用方式请以目录说明及上游项目为准。
+[`overwrite/`](overwrite/) 存放 OpenClash 远程覆写模块及相关资源。
 
-**入口：** [`overwrite/`](overwrite/)
+根目录中主要存放单功能的远程覆写模块；[`overwrite/yaml/`](overwrite/yaml/) 则存放调用本项目 YAML 配置的远程覆写模块。
+
+不同模块的修改范围、参数、组合关系和冲突风险，请进入对应目录查看。未来会不断追加其他功能的覆写模块。
+
+**入口：**
+
+- 单功能覆写模块：[`overwrite/`](overwrite/)
+- YAML 配置远程覆写模块：[`overwrite/yaml/`](overwrite/yaml/)
 
 ---
 
@@ -128,14 +153,19 @@
 
 ---
 
-## 🈸 提交直连域名
+## 💬 讨论与反馈
 
-需要补充少量直连域名时，建议优先使用 OpenClash 的自定义规则功能。
+### 本项目讨论群组
 
-如希望将符合要求的域名纳入本项目，可通过 GitHub Issues、Pull Requests，或访问 [COCR RULE BOT](https://telegram.me/asailor_rulebot) 提交。
+欢迎加入本项目的 Telegram 讨论群组：[Custom OpenClash Rules](https://t.me/custom_openclash_rules_group)
 
-> [!NOTE]
-> 维护者会根据实际情况，将收集到的适合内容向相关上游规则项目提交。
+群组欢迎一切与本项目相关的讨论，包括配置使用、规则反馈、问题排查，也欢迎闲聊吹水。
+
+> [!IMPORTANT]
+> 如排查后确认问题由 OpenClash 插件本身引起、与本项目配置或规则无关（如插件无法启动、界面异常、安装失败等），建议：
+>
+> - 前往 [OpenClash 仓库](https://github.com/vernesong/OpenClash) 提交 Issue；
+> - 或加入 OpenClash 官方 Telegram 讨论群组咨询（可在插件 LuCI 首页点击 Telegram 图标进入）。
 
 ---
 
