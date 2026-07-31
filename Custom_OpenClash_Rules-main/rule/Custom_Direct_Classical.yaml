@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 675
+# TOTAL: 678
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -174,6 +174,7 @@ payload:
   - DOMAIN-SUFFIX,eagsen.com
   - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-SUFFIX,easytomessage.com
+  - DOMAIN-SUFFIX,eceshi.com
   - DOMAIN-SUFFIX,einfo-tech.com
   - DOMAIN-SUFFIX,emby.yun
   - DOMAIN-SUFFIX,englibrary.com
@@ -282,6 +283,7 @@ payload:
   - DOMAIN-SUFFIX,hijin.vip
   - DOMAIN-SUFFIX,hiwms.com
   - DOMAIN-SUFFIX,hkchat.app
+  - DOMAIN-SUFFIX,hnchasing.com
   - DOMAIN-SUFFIX,hnxzctec.com
   - DOMAIN-SUFFIX,hongxingdl.com
   - DOMAIN-SUFFIX,hongxingdl.love
@@ -603,6 +605,7 @@ payload:
   - DOMAIN-SUFFIX,xiaobeiyangji.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
   - DOMAIN-SUFFIX,xiaolikj.online
+  - DOMAIN-SUFFIX,xiaomaicn.com
   - DOMAIN-SUFFIX,xiaoxia.vip
   - DOMAIN-SUFFIX,xiberia.net
   - DOMAIN-SUFFIX,ximogo.com
