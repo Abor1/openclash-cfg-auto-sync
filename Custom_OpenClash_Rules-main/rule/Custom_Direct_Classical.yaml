@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 685
+# TOTAL: 691
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,0044696.com
   - DOMAIN-SUFFIX,03241119.xyz
   - DOMAIN-SUFFIX,0734cn.top
+  - DOMAIN-SUFFIX,0759mall.com
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,115cdn.de
   - DOMAIN-SUFFIX,17van.com
@@ -46,14 +47,17 @@ payload:
   - DOMAIN-SUFFIX,86656.net
   - DOMAIN-SUFFIX,88996api.cloud
   - DOMAIN-SUFFIX,8kc.top
+  - DOMAIN-SUFFIX,8x14khzwmi.com
   - DOMAIN-SUFFIX,900cha.com
   - DOMAIN-SUFFIX,91shenfan.com
+  - DOMAIN-SUFFIX,975135.xyz
   - DOMAIN-SUFFIX,97973399.com
   - DOMAIN-SUFFIX,985hezi.com
   - DOMAIN-SUFFIX,998tool.com
   - DOMAIN-SUFFIX,a0d.top
   - DOMAIN-SUFFIX,aaawz.cc
   - DOMAIN-SUFFIX,acepanel.net
+  - DOMAIN-SUFFIX,acgdraw.com
   - DOMAIN-SUFFIX,acggit.com
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,afeica.com
@@ -197,6 +201,7 @@ payload:
   - DOMAIN-SUFFIX,feizhiyi.com
   - DOMAIN-SUFFIX,fengda.me
   - DOMAIN-SUFFIX,fengsutb.com
+  - DOMAIN-SUFFIX,fffff.games
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fjpit.com
   - DOMAIN-SUFFIX,flingtrainer.com
@@ -656,6 +661,7 @@ payload:
   - DOMAIN-SUFFIX,zcloud.world
   - DOMAIN-SUFFIX,zctnet.top
   - DOMAIN-SUFFIX,zeekrline.com
+  - DOMAIN-SUFFIX,zhaiad.com
   - DOMAIN-SUFFIX,zhangleglobal.com
   - DOMAIN-SUFFIX,zhi10.com
   - DOMAIN-SUFFIX,zhiexa.com
