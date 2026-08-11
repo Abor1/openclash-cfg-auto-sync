@@ -33,9 +33,14 @@
 本项目提供 OpenClash 设置文档、订阅转换模板、YAML 配置、规则文件、远程覆写模块及辅助脚本。各类资源可以独立使用；完整配置方案需要结合项目 Wiki 中的 OpenClash LuCI 设置。
 
 > [!IMPORTANT]
-> **关于 DNS 泄漏防护：使用本项目的 OpenClash 设置方案，并选择三种订阅路径中的任意一种（订阅转换、远程 YAML 覆写或手动导入 YAML），可以在下列前提成立时避免本地 DNS 泄漏。实际结果必须通过检测验证，不能仅以配置完成作为结论。**
+> **关于 DNS 泄漏防护**
 >
-> 上述结论以 Fake-IP、流量接管和 DNS 设置全部按 Wiki 生效，且终端 DNS 请求和相关流量均经过 OpenClash 为前提。客户端启用私有 DNS 或 DoH、设备或部分流量未被接管、插件或固件行为与文档不一致，或自行覆写 DNS 配置时，均超出该方案的控制范围，需要单独处理并验证。
+> 使用本项目的 OpenClash 设置方案，并选择三种订阅路径中的任意一种（订阅转换、远程 YAML 覆写或手动导入 YAML），在以下条件同时满足时，可以避免本地 DNS 泄漏：
+>
+> - Fake-IP、流量接管和 DNS 设置均已按 Wiki 生效；
+> - 终端 DNS 请求及相关流量均经过 OpenClash。
+>
+> 实际结果必须通过检测验证，不能仅以配置完成作为结论。客户端启用私有 DNS 或 DoH、设备或部分流量未被接管、插件或固件行为与文档不一致，或自行覆写 DNS 配置时，均超出该方案的控制范围，需要单独处理并验证。
 
 根目录的 `README.md` 作为项目首页和资源导航，仅介绍各类资源的定位与入口。具体文件、版本区别、参数和使用方法，请进入对应目录查看其自动展示的 `README.md`。
 
@@ -51,7 +56,7 @@
 | 首次配置 OpenClash 或系统了解其工作方式 | [项目 Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) |
 | 使用订阅转换模板、YAML 配置或远程 YAML 覆写模块 | [`cfg/`](cfg/) |
 | 为现有配置补充或修正规则 | [`rule/`](rule/) |
-| 使用独立游戏规则 | [`game_rule/`](game_rule/) |
+| 使用独立游戏规则 | [`rule/game_rule/`](rule/game_rule/) |
 | 使用单功能远程覆写模块 | [`overwrite/`](overwrite/) |
 | 安装、更新或检测 OpenClash | [`shell/`](shell/) |
 | 使用 Sub-Store 扩展脚本 | [Sub-Store 脚本](script/sub-store/) |
@@ -118,7 +123,7 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 
 直连规则由项目用户共同参与维护。如需提交符合收录条件的域名，可使用 GitHub Issue、Pull Request 或 [RULE BOT](https://telegram.me/asailor_rulebot)。
 
-[`game_rule/`](game_rule/) 另存放人工整理的独立游戏规则。目录中的 `.list` 是规则来源，工作流会自动生成 YAML 和 MRS 派生文件，但不会更新规则内容或将其加载到主配置。使用前应核对适用区服、更新时间和实际命中情况。
+[`rule/game_rule/`](rule/game_rule/) 另存放人工整理的独立游戏规则。目录中的 `.list` 是规则来源，工作流会自动生成 YAML 和 MRS 派生文件，但不会更新规则内容或将其加载到主配置。使用前应核对适用区服、更新时间和实际命中情况。
 
 **入口：** [`rule/`](rule/)
 
@@ -239,7 +244,7 @@ OpenClash `dev` 版当前已内置本项目全部 8 个订阅转换模板，包�
 
 | 项目 | 与本项目的关系 |
 | --- | --- |
-| [Aethersailor/SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended) | 本项目推荐使用的订阅转换后端 |
+| [Aethersailor/SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended) | 本项目维护的增强型订阅转换后端 |
 | [Aethersailor/subconverter](https://github.com/Aethersailor/subconverter) | 本项目维护的传统订阅转换后端 |
 | [Aethersailor/Rule-Bot](https://github.com/Aethersailor/Rule-Bot) | 自定义规则提交工具 |
 | [Aethersailor/geoip](https://github.com/Aethersailor/geoip) | GeoIP 数据库与中国大陆 IPv4、IPv6 网段来源 |

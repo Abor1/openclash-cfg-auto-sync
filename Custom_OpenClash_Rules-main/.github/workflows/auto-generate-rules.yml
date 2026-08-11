@@ -10,7 +10,7 @@ on:
       - 'rule/Steam_CDN.list'
       - 'rule/Encrypted_DNS.list'
       - 'rule/Game_Download_CDN.list'
-      - 'game_rule/*.list'
+      - 'rule/game_rule/**/*.list'
       - 'py/generate_rules.py'
   workflow_dispatch:
     inputs:
@@ -101,7 +101,9 @@ jobs:
             python py/generate_rules.py --check --mihomo mihomo
           fi
 
-          git add -- rule/*.yaml rule/*.mrs game_rule/*.yaml game_rule/*.mrs
+          git add -- rule/*.yaml rule/*.mrs \
+            ':(glob)rule/game_rule/**/*.yaml' \
+            ':(glob)rule/game_rule/**/*.mrs'
 
           if git diff --cached --quiet; then
             echo "No generated rule changes, skip commit and push."
@@ -115,7 +117,7 @@ jobs:
           echo "publication_sha=$publication_sha" >> "$GITHUB_OUTPUT"
 
   # Generation and Mihomo validation already ran against the exact worktree that
-  # was published. Verify the public bytes without re-running unrelated tests.
+  # was published. Purge its changed cache keys without re-running unrelated tests.
   purge-generated:
     needs: generate-rules
     permissions:

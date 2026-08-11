@@ -5,12 +5,8 @@
     "main",
     "refs/heads/main"
   ],
-  "verify_hosts": [
-    "cdn.jsdelivr.net"
-  ],
   "public_roots": [
     "cfg",
-    "game_rule",
     "icon",
     "overwrite",
     "rule",
@@ -23,8 +19,28 @@
     "rule/Steam_CDN.list",
     "rule/Encrypted_DNS.list",
     "rule/Game_Download_CDN.list",
-    "game_rule/Microsoft-Flight-Simulator-2020.list",
-    "game_rule/Overwatch2_Asia(Singapore).list"
+    "rule/game_rule/Battlefield-1/Battlefield-1_Africa.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_All-Servers.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Americas.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Antarctica.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Asia-All.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Europe.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Hong-Kong.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Japan.list",
+    "rule/game_rule/Battlefield-1/Battlefield-1_Oceania.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_All-Servers.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Community-Portal.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Europe.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Hong-Kong-Redsec.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Japan.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Korea.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Middle-East.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Oceania.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_Singapore.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_South-Africa.list",
+    "rule/game_rule/Battlefield-6/Battlefield-6_United-States.list",
+    "rule/game_rule/Microsoft-Flight-Simulator-2020/Microsoft-Flight-Simulator-2020_All-Servers.list",
+    "rule/game_rule/Overwatch2/Overwatch2_Asia-Singapore.list"
   ],
   "generated_suffixes": [
     "Domain.yaml",
