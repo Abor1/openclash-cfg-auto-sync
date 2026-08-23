@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 706
+# TOTAL: 715
 
 payload:
   - '*m-team*'
@@ -14,6 +14,7 @@ payload:
   - '+.0759mall.com'
   - '+.112114.xyz'
   - '+.115cdn.de'
+  - '+.123795.com'
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
@@ -60,6 +61,7 @@ payload:
   - '+.acepanel.net'
   - '+.acgdraw.com'
   - '+.acggit.com'
+  - '+.adhuanxiao.com'
   - '+.adobe.com'
   - '+.afeica.com'
   - '+.afuns.me'
@@ -122,6 +124,7 @@ payload:
   - '+.cangjie-lang.net'
   - '+.ccw.site'
   - '+.cdn.ist'
+  - '+.cdut.top'
   - '+.centbrowser.net'
   - '+.cftunnel.com'
   - '+.cg3da.com'
@@ -276,6 +279,7 @@ payload:
   - '+.gsnhcg.com'
   - '+.gsstic.com'
   - '+.guaitao.cc'
+  - '+.guang233.com'
   - '+.guangyapan.com'
   - '+.gvgoo.com'
   - '+.gwmapp-w.com'
@@ -635,12 +639,14 @@ payload:
   - '+.xesabc.com'
   - '+.xfltd.org'
   - '+.xgzb.top'
+  - '+.xianghuiin.com'
   - '+.xiankabao.com'
   - '+.xiaobeiyangji.com'
   - '+.xiaochuanyun.com'
   - '+.xiaolikj.online'
   - '+.xiaomaicn.com'
   - '+.xiaoxia.vip'
+  - '+.xiaoyuan888.com'
   - '+.xiberia.net'
   - '+.ximogo.com'
   - '+.xingaochengtai.com'
@@ -706,7 +712,10 @@ payload:
   - '+.ztytech.com'
   - '+.zuobiao.press'
   - '+.zysou.com'
+  - '+.zyyct.com'
   - '+.zzclass.com'
   - '+.zzqrgs3148.vip'
   - '+.zzr.cc'
   - '+.zzz-log-upload-os.hoyoverse.com'
+  - '+.zzzcaculator.top'
+  - '+.zzzmap.com'
