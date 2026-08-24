@@ -1,6 +1,12 @@
 name: Validate repository
 
 on:
+  workflow_call:
+    inputs:
+      revision:
+        description: Exact repository revision to validate
+        required: true
+        type: string
   push:
     branches:
       - main
@@ -12,6 +18,7 @@ on:
       - 'shell/**/*.sh'
       - 'cfg/*.ini'
       - 'cfg/yaml/**'
+      - 'workers/repository-mirror/**'
   pull_request:
     branches:
       - main
@@ -28,13 +35,17 @@ on:
       - 'shell/**/*.sh'
       - 'cfg/*.ini'
       - 'cfg/yaml/**'
+      - 'workers/repository-mirror/**'
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: validate-${{ github.ref }}
+  group: >-
+    validate-${{ inputs.revision && 'snapshot' || 'event' }}-${{
+      inputs.revision || github.ref
+    }}
   cancel-in-progress: true
 
 jobs:
@@ -45,6 +56,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
+          ref: ${{ inputs.revision || github.sha }}
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -68,7 +80,7 @@ jobs:
         uses: ./.github/actions/setup-mihomo
 
       - name: Materialize derived rules for changed sources
-        if: github.event_name != 'workflow_dispatch'
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
         shell: bash
         env:
           EVENT_NAME: ${{ github.event_name }}
@@ -154,3 +166,17 @@ jobs:
           for config in cfg/yaml/*.yaml; do
             mihomo -t -d "$RUNNER_TEMP/mihomo-config" -f "$config"
           done
+
+      - name: Build and validate Cloudflare mirror bundle
+        env:
+          MIRROR_REVISION: ${{ inputs.revision || github.sha }}
+        run: |
+          python .github/scripts/jsdelivr_purge.py build-worker-assets \
+            --revision "$MIRROR_REVISION" \
+            --output workers/repository-mirror/dist
+          npm ci --prefix workers/repository-mirror
+          (
+            cd workers/repository-mirror
+            npm exec -- wrangler deploy \
+              --dry-run --outdir "$RUNNER_TEMP/wrangler-dry-run"
+          )
