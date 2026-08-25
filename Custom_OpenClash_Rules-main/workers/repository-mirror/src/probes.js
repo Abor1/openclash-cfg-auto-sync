@@ -327,20 +327,16 @@ async function probeHashedFile(name, url) {
   }
 }
 
-function decideOutcome(snapshot, githubApi, githubPage, githubRaw, jsdelivr) {
+function decideOutcome(snapshot, githubApi, githubPage, githubRaw, _jsdelivr) {
   const publicRepositoryReady =
     githubPage.status === "healthy" && githubRaw.status === "healthy";
-  const repositoryEvidenceCompatible = githubApi.status !== "unhealthy";
-  const directSourcesMatch =
-    publicRepositoryReady &&
-    repositoryEvidenceCompatible &&
-    jsdelivr.status === "healthy" &&
-    githubRaw.observedSha256 === jsdelivr.observedSha256;
 
-  // A newer main commit may appear before its matching backup is deployed.
-  // Direct GitHub and jsDelivr convergence is sufficient to keep redirects on.
-  if (directSourcesMatch) {
-    return { outcome: "healthy", reason: "direct_sources_converged" };
+  // Mutable jsDelivr branch URLs can lag behind GitHub. Availability, rather
+  // than byte freshness, controls redirect mode. When GitHub's public page
+  // and Raw file are reachable, visitors should use the configured jsDelivr
+  // redirect even if its current response is stale or temporarily unknown.
+  if (publicRepositoryReady) {
+    return { outcome: "healthy", reason: "github_repository_available" };
   }
 
   if (snapshot) {
@@ -353,20 +349,6 @@ function decideOutcome(snapshot, githubApi, githubPage, githubRaw, jsdelivr) {
       return { outcome: "unhealthy", reason: "repository_unavailable" };
     }
 
-    const backupMatchesRaw =
-      publicRepositoryReady &&
-      repositoryEvidenceCompatible &&
-      snapshot.canary.sha256 === githubRaw.observedSha256;
-    const cdnDefinitelyDiffers =
-      jsdelivr.status === "unhealthy" ||
-      (jsdelivr.status === "healthy" &&
-        jsdelivr.observedSha256 !== githubRaw.observedSha256);
-    if (backupMatchesRaw && cdnDefinitelyDiffers) {
-      return {
-        outcome: "unhealthy",
-        reason: "cdn_mismatch_backup_current",
-      };
-    }
   }
 
   return { outcome: "unknown", reason: "insufficient_evidence" };

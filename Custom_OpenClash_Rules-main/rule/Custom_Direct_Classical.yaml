@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 732
+# TOTAL: 743
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,115cdn.de
   - DOMAIN-SUFFIX,123795.com
+  - DOMAIN-SUFFIX,123clouddisk.com
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
@@ -96,6 +97,7 @@ payload:
   - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,awstme.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,b7f3192.com
   - DOMAIN-SUFFIX,ba-hospital.com
   - DOMAIN-SUFFIX,babawar.com
   - DOMAIN-SUFFIX,baicaf.com
@@ -119,9 +121,11 @@ payload:
   - DOMAIN-SUFFIX,boyuemobile.com
   - DOMAIN-SUFFIX,bsbsb.top
   - DOMAIN-SUFFIX,bunny.net
+  - DOMAIN-SUFFIX,bvmlt.top
   - DOMAIN-SUFFIX,ca-sinfusi.com
   - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,cangjie-lang.net
+  - DOMAIN-SUFFIX,cc39ute.shop
   - DOMAIN-SUFFIX,ccw.site
   - DOMAIN-SUFFIX,cdn.doctor
   - DOMAIN-SUFFIX,cdn.ist
@@ -143,6 +147,7 @@ payload:
   - DOMAIN-SUFFIX,chuguansmart.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,chushi.cool
+  - DOMAIN-SUFFIX,ciallo.party
   - DOMAIN-SUFFIX,clivia.fun
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,cmhk.com
@@ -188,6 +193,7 @@ payload:
   - DOMAIN-SUFFIX,douqq.com
   - DOMAIN-SUFFIX,drvceo.com
   - DOMAIN-SUFFIX,dskj-ops.com
+  - DOMAIN-SUFFIX,dtproj.top
   - DOMAIN-SUFFIX,dushe1.app
   - DOMAIN-SUFFIX,dytt8.com
   - DOMAIN-SUFFIX,eagsen.com
@@ -226,6 +232,7 @@ payload:
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,ftqq.com
   - DOMAIN-SUFFIX,functorz.com
+  - DOMAIN-SUFFIX,funmob.top
   - DOMAIN-SUFFIX,fussengroup.com
   - DOMAIN-SUFFIX,fuyinkeji.top
   - DOMAIN-SUFFIX,fuziche.com
@@ -440,6 +447,7 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,mslmc.net
   - DOMAIN-SUFFIX,mtaokj.com
+  - DOMAIN-SUFFIX,muhemob.com
   - DOMAIN-SUFFIX,mykuaidi.com
   - DOMAIN-SUFFIX,myrny.xin
   - DOMAIN-SUFFIX,myshopex.com
@@ -492,6 +500,7 @@ payload:
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,ppt28.com
   - DOMAIN-SUFFIX,privateapi.xyz
+  - DOMAIN-SUFFIX,psf0404.shop
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,pwithe.com
   - DOMAIN-SUFFIX,qianfan.app
@@ -507,6 +516,7 @@ payload:
   - DOMAIN-SUFFIX,qjmotorlink.com
   - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,quanxinfu.com
+  - DOMAIN-SUFFIX,quxuanshu.com
   - DOMAIN-SUFFIX,qweapi.com
   - DOMAIN-SUFFIX,qweatherapi.com
   - DOMAIN-SUFFIX,qzyun.net
@@ -530,6 +540,7 @@ payload:
   - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN-SUFFIX,seedpace.com
   - DOMAIN-SUFFIX,senachina.com
+  - DOMAIN-SUFFIX,senmuse.com
   - DOMAIN-SUFFIX,server2.cn2gias.uk
   - DOMAIN-SUFFIX,sgtv.ii00.cc
   - DOMAIN-SUFFIX,shanghai-parking.com
