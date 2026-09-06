@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 822
+# TOTAL: 830
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
+  - DOMAIN-SUFFIX,3ced.top
   - DOMAIN-SUFFIX,3d-apollo.com
   - DOMAIN-SUFFIX,3dwhere.com
   - DOMAIN-SUFFIX,3gxk.net
@@ -46,6 +47,7 @@ payload:
   - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,66990000.xyz
   - DOMAIN-SUFFIX,6v520.net
+  - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,737698.xyz
   - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,7sef.com
@@ -200,6 +202,7 @@ payload:
   - DOMAIN-SUFFIX,dfhog.com
   - DOMAIN-SUFFIX,dhub.kubesre.xyz
   - DOMAIN-SUFFIX,dingdingzn.com
+  - DOMAIN-SUFFIX,dingstock.net
   - DOMAIN-SUFFIX,dircleaner.com
   - DOMAIN-SUFFIX,divoiotcloud.com
   - DOMAIN-SUFFIX,diyiedu.com
@@ -270,6 +273,7 @@ payload:
   - DOMAIN-SUFFIX,gaojiua.com
   - DOMAIN-SUFFIX,gaze.run
   - DOMAIN-SUFFIX,gdcucc.v1.mk
+  - DOMAIN-SUFFIX,gdzhimou.com
   - DOMAIN-SUFFIX,geektool.top
   - DOMAIN-SUFFIX,gegeselect.hk
   - DOMAIN-SUFFIX,gelaiyun.net
@@ -386,6 +390,8 @@ payload:
   - DOMAIN-SUFFIX,indeedpower.com
   - DOMAIN-SUFFIX,inetlab.top
   - DOMAIN-SUFFIX,infini-fantasy.com
+  - DOMAIN-SUFFIX,initaq.com
+  - DOMAIN-SUFFIX,inmobicdn.net
   - DOMAIN-SUFFIX,inte.net
   - DOMAIN-SUFFIX,iosgujian.com
   - DOMAIN-SUFFIX,iot889.com
@@ -411,6 +417,7 @@ payload:
   - DOMAIN-SUFFIX,jinzanzan.com
   - DOMAIN-SUFFIX,jiqw.com
   - DOMAIN-SUFFIX,jjzyy.org
+  - DOMAIN-SUFFIX,jkgeek.com
   - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsj.top
@@ -531,6 +538,7 @@ payload:
   - DOMAIN-SUFFIX,opentrust.net
   - DOMAIN-SUFFIX,orence.net
   - DOMAIN-SUFFIX,osbdf.com
+  - DOMAIN-SUFFIX,ossrs.net
   - DOMAIN-SUFFIX,ottai.com
   - DOMAIN-SUFFIX,ottiptv.cc
   - DOMAIN-SUFFIX,ourschool.cc
