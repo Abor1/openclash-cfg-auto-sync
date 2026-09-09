@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 850
+# TOTAL: 860
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -44,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,55555.ink
   - DOMAIN-SUFFIX,56tvc.com
   - DOMAIN-SUFFIX,580ai.net
+  - DOMAIN-SUFFIX,618208.xyz
   - DOMAIN-SUFFIX,657192.com
   - DOMAIN-SUFFIX,66990000.xyz
   - DOMAIN-SUFFIX,6v520.net
@@ -94,6 +95,7 @@ payload:
   - DOMAIN-SUFFIX,alonginwind.to
   - DOMAIN-SUFFIX,alonginwind.top
   - DOMAIN-SUFFIX,aloys233.top
+  - DOMAIN-SUFFIX,amap-cdn.com
   - DOMAIN-SUFFIX,antping.com
   - DOMAIN-SUFFIX,anvnjmc.com
   - DOMAIN-SUFFIX,anycubic.com
@@ -361,6 +363,7 @@ payload:
   - DOMAIN-SUFFIX,hoaihe.store
   - DOMAIN-SUFFIX,hongxingdl.com
   - DOMAIN-SUFFIX,hongxingdl.love
+  - DOMAIN-SUFFIX,hongyanyanbaihuo.online
   - DOMAIN-SUFFIX,hooos.com
   - DOMAIN-SUFFIX,hpr7e.top
   - DOMAIN-SUFFIX,hprtupgrade.com
@@ -504,6 +507,7 @@ payload:
   - DOMAIN-SUFFIX,midoci.top
   - DOMAIN-SUFFIX,mifeng.plus
   - DOMAIN-SUFFIX,mifon.com
+  - DOMAIN-SUFFIX,mifosy.com
   - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
   - DOMAIN-SUFFIX,miraiemby.com
   - DOMAIN-SUFFIX,mixly.org
@@ -538,6 +542,7 @@ payload:
   - DOMAIN-SUFFIX,no-mad-sub.one
   - DOMAIN-SUFFIX,nodcloud.com
   - DOMAIN-SUFFIX,noyer.eu.org
+  - DOMAIN-SUFFIX,nwiztech.com
   - DOMAIN-SUFFIX,nxog.top
   - DOMAIN-SUFFIX,nyxcuy.com
   - DOMAIN-SUFFIX,oai.sb
@@ -633,6 +638,7 @@ payload:
   - DOMAIN-SUFFIX,share123.top
   - DOMAIN-SUFFIX,shineacc.com
   - DOMAIN-SUFFIX,shuangqingtech.com
+  - DOMAIN-SUFFIX,shuangxiumall.com
   - DOMAIN-SUFFIX,shuinfo.com
   - DOMAIN-SUFFIX,shunjing.xin
   - DOMAIN-SUFFIX,shuqiandiqiu.com
@@ -644,6 +650,7 @@ payload:
   - DOMAIN-SUFFIX,snfox.com
   - DOMAIN-SUFFIX,snltty.com
   - DOMAIN-SUFFIX,soulteary.com
+  - DOMAIN-SUFFIX,spisec.com
   - DOMAIN-SUFFIX,sptv.ii00.cc
   - DOMAIN-SUFFIX,ssjj2.com
   - DOMAIN-SUFFIX,starlink.uno
@@ -718,6 +725,7 @@ payload:
   - DOMAIN-SUFFIX,vcltrade.com
   - DOMAIN-SUFFIX,vgogbuy.com
   - DOMAIN-SUFFIX,vip-cdn.com
+  - DOMAIN-SUFFIX,vlan5.com
   - DOMAIN-SUFFIX,vpsjyz.com
   - DOMAIN-SUFFIX,vv1865.com
   - DOMAIN-SUFFIX,warmheart.top
@@ -763,6 +771,7 @@ payload:
   - DOMAIN-SUFFIX,ximogo.com
   - DOMAIN-SUFFIX,xingaochengtai.com
   - DOMAIN-SUFFIX,xinghaiwaimai.com
+  - DOMAIN-SUFFIX,xingmojs.com
   - DOMAIN-SUFFIX,xingyaozhilian.com
   - DOMAIN-SUFFIX,xinstall.top
   - DOMAIN-SUFFIX,xiqueer.com
@@ -833,6 +842,7 @@ payload:
   - DOMAIN-SUFFIX,zqin758.xyz
   - DOMAIN-SUFFIX,zsytit.com
   - DOMAIN-SUFFIX,ztytech.com
+  - DOMAIN-SUFFIX,zuidazym3u8.com
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,zyyct.com
