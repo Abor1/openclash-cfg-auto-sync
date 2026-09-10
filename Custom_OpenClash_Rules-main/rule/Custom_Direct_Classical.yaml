@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 860
+# TOTAL: 865
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -208,6 +208,7 @@ payload:
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,dfhog.com
   - DOMAIN-SUFFIX,dhub.kubesre.xyz
+  - DOMAIN-SUFFIX,diandaojia.net
   - DOMAIN-SUFFIX,dingdingzn.com
   - DOMAIN-SUFFIX,dingstock.net
   - DOMAIN-SUFFIX,dircleaner.com
@@ -242,6 +243,7 @@ payload:
   - DOMAIN-SUFFIX,everdrawing.com
   - DOMAIN-SUFFIX,excelbbx.net
   - DOMAIN-SUFFIX,exiliumgf.com
+  - DOMAIN-SUFFIX,eye4cloud.com
   - DOMAIN-SUFFIX,faka163.com
   - DOMAIN-SUFFIX,fastify.cc
   - DOMAIN-SUFFIX,fb71ef91e1014.beer
@@ -271,6 +273,7 @@ payload:
   - DOMAIN-SUFFIX,fussengroup.com
   - DOMAIN-SUFFIX,fuyinkeji.top
   - DOMAIN-SUFFIX,fuziche.com
+  - DOMAIN-SUFFIX,fzedu.pub
   - DOMAIN-SUFFIX,fzshouji.com
   - DOMAIN-SUFFIX,fzvcolco.com
   - DOMAIN-SUFFIX,fzwqq.com
@@ -414,6 +417,7 @@ payload:
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,iposl.com
   - DOMAIN-SUFFIX,ipshu.com
+  - DOMAIN-SUFFIX,iquantumad.com
   - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,itptg.com
   - DOMAIN-SUFFIX,itui.cc
@@ -758,6 +762,7 @@ payload:
   - DOMAIN-SUFFIX,xesim.net
   - DOMAIN-SUFFIX,xfltd.org
   - DOMAIN-SUFFIX,xgzb.top
+  - DOMAIN-SUFFIX,xhey.top
   - DOMAIN-SUFFIX,xianghuiin.com
   - DOMAIN-SUFFIX,xiankabao.com
   - DOMAIN-SUFFIX,xiaobeiyangji.com
