@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 922
+# TOTAL: 926
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -94,6 +94,7 @@ payload:
   - DOMAIN-SUFFIX,ainfinit.com
   - DOMAIN-SUFFIX,aisnogames.com
   - DOMAIN-SUFFIX,aistudio-app.com
+  - DOMAIN-SUFFIX,aiyohoo.com
   - DOMAIN-SUFFIX,akamaihd.net
   - DOMAIN-SUFFIX,akamaized.net
   - DOMAIN-SUFFIX,allptt.com
@@ -394,6 +395,7 @@ payload:
   - DOMAIN-SUFFIX,hprtupgrade.com
   - DOMAIN-SUFFIX,hrhgstock.com
   - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,hsdxdl.com
   - DOMAIN-SUFFIX,hstbroker.com
   - DOMAIN-SUFFIX,hszq6.com
   - DOMAIN-SUFFIX,htkgsx.com
@@ -412,6 +414,7 @@ payload:
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,hzqsn.com
   - DOMAIN-SUFFIX,hzssjp.com
+  - DOMAIN-SUFFIX,hzttwl.com
   - DOMAIN-SUFFIX,hzyi.eu.org
   - DOMAIN-SUFFIX,ibnjl.shop
   - DOMAIN-SUFFIX,ibwm5lynb6.com
@@ -429,6 +432,7 @@ payload:
   - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,indeedpower.com
   - DOMAIN-SUFFIX,inetlab.top
+  - DOMAIN-SUFFIX,inextos.com
   - DOMAIN-SUFFIX,infini-fantasy.com
   - DOMAIN-SUFFIX,initaq.com
   - DOMAIN-SUFFIX,inmobicdn.net
