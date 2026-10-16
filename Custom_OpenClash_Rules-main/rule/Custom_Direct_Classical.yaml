@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 998
+# TOTAL: 1003
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -124,6 +124,7 @@ payload:
   - DOMAIN-SUFFIX,argotunnel.com
   - DOMAIN-SUFFIX,armvm.com
   - DOMAIN-SUFFIX,asgardion.space
+  - DOMAIN-SUFFIX,astrobox.online
   - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,awstme.top
   - DOMAIN-SUFFIX,ax1x.com
@@ -387,6 +388,7 @@ payload:
   - DOMAIN-SUFFIX,haimaiedu.net
   - DOMAIN-SUFFIX,halvie.com
   - DOMAIN-SUFFIX,ham.xin
+  - DOMAIN-SUFFIX,handfree.work
   - DOMAIN-SUFFIX,hangnakeji.com
   - DOMAIN-SUFFIX,hanqiuming888.com
   - DOMAIN-SUFFIX,haofanhuoban.com
@@ -633,6 +635,7 @@ payload:
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,omq.cc
   - DOMAIN-SUFFIX,onebuygz.com
+  - DOMAIN-SUFFIX,onesetapp.com
   - DOMAIN-SUFFIX,onetoken.sh
   - DOMAIN-SUFFIX,onetools.top
   - DOMAIN-SUFFIX,openappfilter.com
@@ -678,6 +681,7 @@ payload:
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,psf0404.shop
   - DOMAIN-SUFFIX,ptlgs.org
+  - DOMAIN-SUFFIX,ptxzn.com
   - DOMAIN-SUFFIX,pubsub.tech
   - DOMAIN-SUFFIX,pvz1.com
   - DOMAIN-SUFFIX,pwithe.com
@@ -938,6 +942,7 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,yiso.fun
   - DOMAIN-SUFFIX,yixc.com
+  - DOMAIN-SUFFIX,yldw.net
   - DOMAIN-SUFFIX,ymwfy.com
   - DOMAIN-SUFFIX,ymzec.com
   - DOMAIN-SUFFIX,ynsj001.com

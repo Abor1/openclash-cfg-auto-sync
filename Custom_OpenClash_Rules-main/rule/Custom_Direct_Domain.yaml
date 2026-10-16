@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 983
+# TOTAL: 988
 
 payload:
   - '+.00333118.com'
@@ -121,6 +121,7 @@ payload:
   - '+.argotunnel.com'
   - '+.armvm.com'
   - '+.asgardion.space'
+  - '+.astrobox.online'
   - '+.atticus.vip'
   - '+.awstme.top'
   - '+.ax1x.com'
@@ -384,6 +385,7 @@ payload:
   - '+.haimaiedu.net'
   - '+.halvie.com'
   - '+.ham.xin'
+  - '+.handfree.work'
   - '+.hangnakeji.com'
   - '+.hanqiuming888.com'
   - '+.haofanhuoban.com'
@@ -630,6 +632,7 @@ payload:
   - '+.ok321.top'
   - '+.omq.cc'
   - '+.onebuygz.com'
+  - '+.onesetapp.com'
   - '+.onetoken.sh'
   - '+.onetools.top'
   - '+.openappfilter.com'
@@ -675,6 +678,7 @@ payload:
   - '+.privateapi.xyz'
   - '+.psf0404.shop'
   - '+.ptlgs.org'
+  - '+.ptxzn.com'
   - '+.pubsub.tech'
   - '+.pvz1.com'
   - '+.pwithe.com'
@@ -935,6 +939,7 @@ payload:
   - '+.yingshi.dog'
   - '+.yiso.fun'
   - '+.yixc.com'
+  - '+.yldw.net'
   - '+.ymwfy.com'
   - '+.ymzec.com'
   - '+.ynsj001.com'
