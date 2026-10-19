@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1012
+# TOTAL: 1017
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,115cdn.de
   - DOMAIN-SUFFIX,123795.com
   - DOMAIN-SUFFIX,123clouddisk.com
+  - DOMAIN-SUFFIX,12zayb.com
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
@@ -170,8 +171,10 @@ payload:
   - DOMAIN-SUFFIX,calmate.cc
   - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,cangjie-lang.net
+  - DOMAIN-SUFFIX,cbn.id
   - DOMAIN-SUFFIX,cc.ink
   - DOMAIN-SUFFIX,cc39ute.shop
+  - DOMAIN-SUFFIX,cc44dd.com
   - DOMAIN-SUFFIX,ccw.site
   - DOMAIN-SUFFIX,cdn.doctor
   - DOMAIN-SUFFIX,cdn.ist
@@ -765,6 +768,7 @@ payload:
   - DOMAIN-SUFFIX,skxvc.com
   - DOMAIN-SUFFIX,snfox.com
   - DOMAIN-SUFFIX,snltty.com
+  - DOMAIN-SUFFIX,sollin.top
   - DOMAIN-SUFFIX,soulteary.com
   - DOMAIN-SUFFIX,spisec.com
   - DOMAIN-SUFFIX,spst1.com
@@ -864,6 +868,7 @@ payload:
   - DOMAIN-SUFFIX,vpsjyz.com
   - DOMAIN-SUFFIX,vtools.online
   - DOMAIN-SUFFIX,vv1865.com
+  - DOMAIN-SUFFIX,vvhan.com
   - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,wawo.cc
   - DOMAIN-SUFFIX,we-stats.com
