@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1011
+# TOTAL: 1014
 
 payload:
   - '+.00333118.com'
@@ -53,6 +53,7 @@ payload:
   - '+.6v520.net'
   - '+.71.am'
   - '+.737698.xyz'
+  - '+.77shuku.info'
   - '+.77shuku.org'
   - '+.7sef.com'
   - '+.800686.xyz'
@@ -96,6 +97,7 @@ payload:
   - '+.ainfinit.com'
   - '+.aisnogames.com'
   - '+.aistudio-app.com'
+  - '+.aitongqian.com'
   - '+.aiyohoo.com'
   - '+.akamaihd.net'
   - '+.akamaized.net'
@@ -874,6 +876,7 @@ payload:
   - '+.vv1865.com'
   - '+.vvhan.com'
   - '+.wallecube.com'
+  - '+.wanzd.com'
   - '+.warmheart.top'
   - '+.wawo.cc'
   - '+.we-stats.com'
