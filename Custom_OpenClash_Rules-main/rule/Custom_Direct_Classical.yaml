@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1033
+# TOTAL: 1038
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -189,6 +189,7 @@ payload:
   - DOMAIN-SUFFIX,cg3da.com
   - DOMAIN-SUFFIX,cgicop.com
   - DOMAIN-SUFFIX,changjirb.com
+  - DOMAIN-SUFFIX,changzhi.top
   - DOMAIN-SUFFIX,chaxunjiao.com
   - DOMAIN-SUFFIX,chaz.fun
   - DOMAIN-SUFFIX,checkip.dyndns.org
@@ -553,6 +554,7 @@ payload:
   - DOMAIN-SUFFIX,laogongju.com
   - DOMAIN-SUFFIX,latexlive.com
   - DOMAIN-SUFFIX,laupqc.com
+  - DOMAIN-SUFFIX,ldboost.com
   - DOMAIN-SUFFIX,leadweigh.com
   - DOMAIN-SUFFIX,leelen.com
   - DOMAIN-SUFFIX,letaoedu.com
@@ -565,6 +567,7 @@ payload:
   - DOMAIN-SUFFIX,listenai.com
   - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,liveperson.net
+  - DOMAIN-SUFFIX,liyunol.com
   - DOMAIN-SUFFIX,ljj233.top
   - DOMAIN-SUFFIX,longmenshuju.com
   - DOMAIN-SUFFIX,loveutips.com
@@ -723,6 +726,7 @@ payload:
   - DOMAIN-SUFFIX,quxuanshu.com
   - DOMAIN-SUFFIX,qweapi.com
   - DOMAIN-SUFFIX,qweatherapi.com
+  - DOMAIN-SUFFIX,qzy.xyz
   - DOMAIN-SUFFIX,qzyun.net
   - DOMAIN-SUFFIX,ranwen.tw
   - DOMAIN-SUFFIX,rayws.top
@@ -929,6 +933,7 @@ payload:
   - DOMAIN-SUFFIX,xiaolikj.online
   - DOMAIN-SUFFIX,xiaomaicn.com
   - DOMAIN-SUFFIX,xiaoxia.vip
+  - DOMAIN-SUFFIX,xiaoyao.co
   - DOMAIN-SUFFIX,xiaoyuan888.com
   - DOMAIN-SUFFIX,xiberia.net
   - DOMAIN-SUFFIX,ximogo.com
