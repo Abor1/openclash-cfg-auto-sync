@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1038
+# TOTAL: 1047
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,123795.com
   - DOMAIN-SUFFIX,123clouddisk.com
   - DOMAIN-SUFFIX,12zayb.com
+  - DOMAIN-SUFFIX,153532.com
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
   - DOMAIN-SUFFIX,204cloud.com
@@ -56,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,6v520.net
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,737698.xyz
+  - DOMAIN-SUFFIX,757abc.com
   - DOMAIN-SUFFIX,77shuku.info
   - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,7sef.com
@@ -289,6 +291,7 @@ payload:
   - DOMAIN-SUFFIX,excelbbx.net
   - DOMAIN-SUFFIX,exiliumgf.com
   - DOMAIN-SUFFIX,eye4cloud.com
+  - DOMAIN-SUFFIX,eyosc.com
   - DOMAIN-SUFFIX,faka163.com
   - DOMAIN-SUFFIX,fastify.cc
   - DOMAIN-SUFFIX,fb71ef91e1014.beer
@@ -327,6 +330,7 @@ payload:
   - DOMAIN-SUFFIX,fzshouji.com
   - DOMAIN-SUFFIX,fzvcolco.com
   - DOMAIN-SUFFIX,fzwqq.com
+  - DOMAIN-SUFFIX,gacicv.com
   - DOMAIN-SUFFIX,gaishitongshu.com
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,gamepp.com
@@ -403,6 +407,7 @@ payload:
   - DOMAIN-SUFFIX,ham.xin
   - DOMAIN-SUFFIX,handfree.work
   - DOMAIN-SUFFIX,hangnakeji.com
+  - DOMAIN-SUFFIX,hanoking.com
   - DOMAIN-SUFFIX,hanqiuming888.com
   - DOMAIN-SUFFIX,hanzhe.site
   - DOMAIN-SUFFIX,haofanhuoban.com
@@ -451,6 +456,7 @@ payload:
   - DOMAIN-SUFFIX,hub.xdark.top
   - DOMAIN-SUFFIX,hueihuei.top
   - DOMAIN-SUFFIX,huikao8.com
+  - DOMAIN-SUFFIX,human-horizons.com
   - DOMAIN-SUFFIX,hutaoyun.top
   - DOMAIN-SUFFIX,hwbim.com
   - DOMAIN-SUFFIX,hwjianmo.com
@@ -535,6 +541,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kasperskydaily.com
+  - DOMAIN-SUFFIX,kbser.com
   - DOMAIN-SUFFIX,kcbd.top
   - DOMAIN-SUFFIX,kcttpa.com
   - DOMAIN-SUFFIX,kejiweixun.com
@@ -569,6 +576,7 @@ payload:
   - DOMAIN-SUFFIX,liveperson.net
   - DOMAIN-SUFFIX,liyunol.com
   - DOMAIN-SUFFIX,ljj233.top
+  - DOMAIN-SUFFIX,lodop.net
   - DOMAIN-SUFFIX,longmenshuju.com
   - DOMAIN-SUFFIX,loveutips.com
   - DOMAIN-SUFFIX,lsbj365.com
@@ -791,6 +799,7 @@ payload:
   - DOMAIN-SUFFIX,staticmeow.com
   - DOMAIN-SUFFIX,stkfanli.com
   - DOMAIN-SUFFIX,sufe.me
+  - DOMAIN-SUFFIX,sun-panel.top
   - DOMAIN-SUFFIX,sunrisecontent.akamaized.net
   - DOMAIN-SUFFIX,suntl.com
   - DOMAIN-SUFFIX,susudesu.com

@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1023
+# TOTAL: 1032
 
 payload:
   - '+.00333118.com'
@@ -18,6 +18,7 @@ payload:
   - '+.123795.com'
   - '+.123clouddisk.com'
   - '+.12zayb.com'
+  - '+.153532.com'
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
@@ -53,6 +54,7 @@ payload:
   - '+.6v520.net'
   - '+.71.am'
   - '+.737698.xyz'
+  - '+.757abc.com'
   - '+.77shuku.info'
   - '+.77shuku.org'
   - '+.7sef.com'
@@ -286,6 +288,7 @@ payload:
   - '+.excelbbx.net'
   - '+.exiliumgf.com'
   - '+.eye4cloud.com'
+  - '+.eyosc.com'
   - '+.faka163.com'
   - '+.fastify.cc'
   - '+.fb71ef91e1014.beer'
@@ -324,6 +327,7 @@ payload:
   - '+.fzshouji.com'
   - '+.fzvcolco.com'
   - '+.fzwqq.com'
+  - '+.gacicv.com'
   - '+.gaishitongshu.com'
   - '+.game.maj-soul.com'
   - '+.gamepp.com'
@@ -400,6 +404,7 @@ payload:
   - '+.ham.xin'
   - '+.handfree.work'
   - '+.hangnakeji.com'
+  - '+.hanoking.com'
   - '+.hanqiuming888.com'
   - '+.hanzhe.site'
   - '+.haofanhuoban.com'
@@ -448,6 +453,7 @@ payload:
   - '+.hub.xdark.top'
   - '+.hueihuei.top'
   - '+.huikao8.com'
+  - '+.human-horizons.com'
   - '+.hutaoyun.top'
   - '+.hwbim.com'
   - '+.hwjianmo.com'
@@ -532,6 +538,7 @@ payload:
   - '+.kaspersky-labs.com'
   - '+.kaspersky.com'
   - '+.kasperskydaily.com'
+  - '+.kbser.com'
   - '+.kcbd.top'
   - '+.kcttpa.com'
   - '+.kejiweixun.com'
@@ -566,6 +573,7 @@ payload:
   - '+.liveperson.net'
   - '+.liyunol.com'
   - '+.ljj233.top'
+  - '+.lodop.net'
   - '+.longmenshuju.com'
   - '+.loveutips.com'
   - '+.lsbj365.com'
@@ -788,6 +796,7 @@ payload:
   - '+.staticmeow.com'
   - '+.stkfanli.com'
   - '+.sufe.me'
+  - '+.sun-panel.top'
   - '+.sunrisecontent.akamaized.net'
   - '+.suntl.com'
   - '+.susudesu.com'
