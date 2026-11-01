@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1083
+# TOTAL: 1084
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -445,6 +445,7 @@ payload:
   - DOMAIN-SUFFIX,hjgdrop.cc
   - DOMAIN-SUFFIX,hkchat.app
   - DOMAIN-SUFFIX,hnchasing.com
+  - DOMAIN-SUFFIX,hndk1.com
   - DOMAIN-SUFFIX,hnxzctec.com
   - DOMAIN-SUFFIX,hnzjyw.com
   - DOMAIN-SUFFIX,hoaihe.store
@@ -534,8 +535,6 @@ payload:
   - DOMAIN-SUFFIX,jjzyy.org
   - DOMAIN-SUFFIX,jkgeek.com
   - DOMAIN-SUFFIX,jnsjz.com
-  - DOMAIN-SUFFIX,jsdelivr.com
-  - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,jspvz.com
   - DOMAIN-SUFFIX,juantui.com
@@ -597,6 +596,7 @@ payload:
   - DOMAIN-SUFFIX,lsposed.zip
   - DOMAIN-SUFFIX,lty02.com
   - DOMAIN-SUFFIX,lucky.gd
+  - DOMAIN-SUFFIX,luxiangwu.com
   - DOMAIN-SUFFIX,lw5.co
   - DOMAIN-SUFFIX,lyihub.com
   - DOMAIN-SUFFIX,lyilife.com
@@ -748,6 +748,7 @@ payload:
   - DOMAIN-SUFFIX,qjmotorlink.com
   - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,qmpx.net
+  - DOMAIN-SUFFIX,qpe27.top
   - DOMAIN-SUFFIX,quanxinfu.com
   - DOMAIN-SUFFIX,quanzhua.com
   - DOMAIN-SUFFIX,quxuanshu.com
