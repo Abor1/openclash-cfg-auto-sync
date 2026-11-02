@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1069
+# TOTAL: 1078
 
 payload:
   - '+.00333118.com'
@@ -22,6 +22,7 @@ payload:
   - '+.17van.com'
   - '+.1996999.xyz'
   - '+.204cloud.com'
+  - '+.225284.xyz'
   - '+.25mao.com'
   - '+.2mcnxs.cc'
   - '+.365ting.com'
@@ -47,6 +48,7 @@ payload:
   - '+.52met.com'
   - '+.52muban.com'
   - '+.52youzai.com'
+  - '+.52ywp.com'
   - '+.55555.ink'
   - '+.56tvc.com'
   - '+.580ai.net'
@@ -234,6 +236,7 @@ payload:
   - '+.crrcgo.cc'
   - '+.crtyhr.com'
   - '+.csqaq.com'
+  - '+.cyberpig.tech'
   - '+.cydiabc.top'
   - '+.cym520.top'
   - '+.cyouzai.com'
@@ -245,6 +248,7 @@ payload:
   - '+.dayilive.com'
   - '+.dcgstd.com'
   - '+.dcshfu.com'
+  - '+.dd3862.com'
   - '+.ddsrem.com'
   - '+.ddzn.tech'
   - '+.deepzero.com'
@@ -429,6 +433,7 @@ payload:
   - '+.hclassplatform.com'
   - '+.hdbz.net'
   - '+.hdcm00.com'
+  - '+.hexieark.com'
   - '+.hexiny.com'
   - '+.heysida.com'
   - '+.hezuvip.com'
@@ -559,6 +564,7 @@ payload:
   - '+.kit327.com'
   - '+.kiwiot.com'
   - '+.kke.com.hk'
+  - '+.kkmmy.com'
   - '+.kldai.vip'
   - '+.kmeila.com'
   - '+.koebpmhcce.com'
@@ -575,6 +581,7 @@ payload:
   - '+.leadweigh.com'
   - '+.leelen.com'
   - '+.letaoedu.com'
+  - '+.leux.net'
   - '+.lezuan6.com'
   - '+.lg3000.top'
   - '+.lightmake.site'
@@ -808,6 +815,7 @@ payload:
   - '+.skktec.com'
   - '+.sksight.com'
   - '+.skxvc.com'
+  - '+.skyts.net'
   - '+.snfox.com'
   - '+.snltty.com'
   - '+.sollin.top'
@@ -892,6 +900,7 @@ payload:
   - '+.tuxing.art'
   - '+.twinkstar.com'
   - '+.twtapp.com'
+  - '+.tylk.cc'
   - '+.type.fun'
   - '+.tztec.top'
   - '+.u-carloan.com'
