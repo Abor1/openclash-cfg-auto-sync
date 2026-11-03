@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1093
+# TOTAL: 1110
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -88,6 +88,7 @@ payload:
   - DOMAIN-SUFFIX,acepanel.net
   - DOMAIN-SUFFIX,acgdraw.com
   - DOMAIN-SUFFIX,acggit.com
+  - DOMAIN-SUFFIX,adbnjg.com
   - DOMAIN-SUFFIX,adhuanxiao.com
   - DOMAIN-SUFFIX,admobile.top
   - DOMAIN-SUFFIX,admpv.com
@@ -159,6 +160,7 @@ payload:
   - DOMAIN-SUFFIX,belimked.com
   - DOMAIN-SUFFIX,belongme.top
   - DOMAIN-SUFFIX,betahub.tech
+  - DOMAIN-SUFFIX,bhduhs.com
   - DOMAIN-SUFFIX,biandangroup.com
   - DOMAIN-SUFFIX,biaoda.me
   - DOMAIN-SUFFIX,bingshandashu.com
@@ -258,6 +260,7 @@ payload:
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,dfhog.com
   - DOMAIN-SUFFIX,dg3yy.com
+  - DOMAIN-SUFFIX,dhjsnx.com
   - DOMAIN-SUFFIX,dhub.kubesre.xyz
   - DOMAIN-SUFFIX,diandaojia.net
   - DOMAIN-SUFFIX,dingdingzn.com
@@ -290,6 +293,7 @@ payload:
   - DOMAIN-SUFFIX,ec766.com
   - DOMAIN-SUFFIX,eceshi.com
   - DOMAIN-SUFFIX,ectaiping.com
+  - DOMAIN-SUFFIX,ehdjskx.com
   - DOMAIN-SUFFIX,einfo-tech.com
   - DOMAIN-SUFFIX,emby.yun
   - DOMAIN-SUFFIX,englibrary.com
@@ -318,6 +322,7 @@ payload:
   - DOMAIN-SUFFIX,fffff.games
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fgaiservice.com
+  - DOMAIN-SUFFIX,fhendj.com
   - DOMAIN-SUFFIX,fileh.xyz
   - DOMAIN-SUFFIX,filej.xyz
   - DOMAIN-SUFFIX,fjdejing.com
@@ -363,6 +368,7 @@ payload:
   - DOMAIN-SUFFIX,gh.con.sh
   - DOMAIN-SUFFIX,gh.ddlc.top
   - DOMAIN-SUFFIX,gh.llkk.cc
+  - DOMAIN-SUFFIX,ghejdls.com
   - DOMAIN-SUFFIX,ghfast.top
   - DOMAIN-SUFFIX,ghoxz.com
   - DOMAIN-SUFFIX,ghp.ci
@@ -467,6 +473,7 @@ payload:
   - DOMAIN-SUFFIX,hstbroker.com
   - DOMAIN-SUFFIX,hszq6.com
   - DOMAIN-SUFFIX,htkgsx.com
+  - DOMAIN-SUFFIX,huabangshou.com
   - DOMAIN-SUFFIX,huacheng2025.com
   - DOMAIN-SUFFIX,hub.crdz.gq
   - DOMAIN-SUFFIX,hub.gitmirror.com
@@ -497,6 +504,7 @@ payload:
   - DOMAIN-SUFFIX,ifengmap.com
   - DOMAIN-SUFFIX,ifish7.com
   - DOMAIN-SUFFIX,igpsport.com
+  - DOMAIN-SUFFIX,ijdhend.com
   - DOMAIN-SUFFIX,ijingyi.com
   - DOMAIN-SUFFIX,ilucky.net
   - DOMAIN-SUFFIX,imacos.top
@@ -587,9 +595,12 @@ payload:
   - DOMAIN-SUFFIX,leux.net
   - DOMAIN-SUFFIX,lezuan6.com
   - DOMAIN-SUFFIX,lg3000.top
+  - DOMAIN-SUFFIX,lhndksn.com
+  - DOMAIN-SUFFIX,lianguo-tech.com
   - DOMAIN-SUFFIX,lightmake.site
   - DOMAIN-SUFFIX,linka2a.net
   - DOMAIN-SUFFIX,linkcircle.net
+  - DOMAIN-SUFFIX,linkease.net
   - DOMAIN-SUFFIX,linux.sb
   - DOMAIN-SUFFIX,listenai.com
   - DOMAIN-SUFFIX,liunn.com
@@ -668,6 +679,7 @@ payload:
   - DOMAIN-SUFFIX,natchecker.com
   - DOMAIN-SUFFIX,neihang.net
   - DOMAIN-SUFFIX,netzz.net
+  - DOMAIN-SUFFIX,nhjdixj.com
   - DOMAIN-SUFFIX,nicezhuanye.com
   - DOMAIN-SUFFIX,njlisi.top
   - DOMAIN-SUFFIX,njonemall.com
@@ -684,6 +696,7 @@ payload:
   - DOMAIN-SUFFIX,oai.sb
   - DOMAIN-SUFFIX,oath.com
   - DOMAIN-SUFFIX,oceando.cloud
+  - DOMAIN-SUFFIX,ohdnhxj.com
   - DOMAIN-SUFFIX,ok321.top
   - DOMAIN-SUFFIX,omq.cc
   - DOMAIN-SUFFIX,onebuygz.com
@@ -713,6 +726,7 @@ payload:
   - DOMAIN-SUFFIX,passnat.com
   - DOMAIN-SUFFIX,pcwatch.com
   - DOMAIN-SUFFIX,pdf001.com
+  - DOMAIN-SUFFIX,pdhnx.com
   - DOMAIN-SUFFIX,piedaochuan.top
   - DOMAIN-SUFFIX,pinshuxsw.com
   - DOMAIN-SUFFIX,pixcheese.com
@@ -894,6 +908,7 @@ payload:
   - DOMAIN-SUFFIX,touchgal.ink
   - DOMAIN-SUFFIX,touchgaloss.com
   - DOMAIN-SUFFIX,tozi-cn.top
+  - DOMAIN-SUFFIX,tracker.ink
   - DOMAIN-SUFFIX,trjho.com
   - DOMAIN-SUFFIX,ts3.ink
   - DOMAIN-SUFFIX,ttshitu.com
@@ -980,6 +995,7 @@ payload:
   - DOMAIN-SUFFIX,xiaobeiyangji.com
   - DOMAIN-SUFFIX,xiaocaiyuan.com
   - DOMAIN-SUFFIX,xiaochuanyun.com
+  - DOMAIN-SUFFIX,xiaodingfang.com
   - DOMAIN-SUFFIX,xiaolikj.online
   - DOMAIN-SUFFIX,xiaomaicn.com
   - DOMAIN-SUFFIX,xiaoxia.vip
@@ -1076,6 +1092,7 @@ payload:
   - DOMAIN-SUFFIX,ztytech.com
   - DOMAIN-SUFFIX,zuidazym3u8.com
   - DOMAIN-SUFFIX,zuobiao.press
+  - DOMAIN-SUFFIX,zxp7.cc
   - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,zyyct.com
   - DOMAIN-SUFFIX,zzclass.com
