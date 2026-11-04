@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1110
+# TOTAL: 1120
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,204cloud.com
   - DOMAIN-SUFFIX,225284.xyz
   - DOMAIN-SUFFIX,25mao.com
+  - DOMAIN-SUFFIX,264788.xyz
   - DOMAIN-SUFFIX,2mcnxs.cc
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
@@ -134,6 +135,7 @@ payload:
   - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
   - DOMAIN-SUFFIX,appracle.com
   - DOMAIN-SUFFIX,aqtwwx.net
+  - DOMAIN-SUFFIX,arena-cn.com
   - DOMAIN-SUFFIX,argotunnel.com
   - DOMAIN-SUFFIX,armvm.com
   - DOMAIN-SUFFIX,asgardion.space
@@ -202,6 +204,7 @@ payload:
   - DOMAIN-SUFFIX,cgicop.com
   - DOMAIN-SUFFIX,changjirb.com
   - DOMAIN-SUFFIX,changzhi.top
+  - DOMAIN-SUFFIX,chatlabs.net
   - DOMAIN-SUFFIX,chaxunjiao.com
   - DOMAIN-SUFFIX,chaz.fun
   - DOMAIN-SUFFIX,checkip.dyndns.org
@@ -236,6 +239,7 @@ payload:
   - DOMAIN-SUFFIX,constantinefun.com
   - DOMAIN-SUFFIX,constasj.me
   - DOMAIN-SUFFIX,coros.com
+  - DOMAIN-SUFFIX,cqhy.fun
   - DOMAIN-SUFFIX,cqjypg.com
   - DOMAIN-SUFFIX,cqnbmarathon.com
   - DOMAIN-SUFFIX,crrcgo.cc
@@ -249,6 +253,7 @@ payload:
   - DOMAIN-SUFFIX,dadateach.com
   - DOMAIN-SUFFIX,dahai96.com
   - DOMAIN-SUFFIX,daocloud.vip
+  - DOMAIN-SUFFIX,darwinchow.com
   - DOMAIN-SUFFIX,day.app
   - DOMAIN-SUFFIX,dayilive.com
   - DOMAIN-SUFFIX,dcgstd.com
@@ -340,6 +345,7 @@ payload:
   - DOMAIN-SUFFIX,fsytss.com
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,ftqq.com
+  - DOMAIN-SUFFIX,ftsup.com
   - DOMAIN-SUFFIX,functorz.com
   - DOMAIN-SUFFIX,funlinkads.com
   - DOMAIN-SUFFIX,funmob.top
@@ -634,6 +640,7 @@ payload:
   - DOMAIN-SUFFIX,medtechshare.com
   - DOMAIN-SUFFIX,meetkb.com
   - DOMAIN-SUFFIX,meijian.com
+  - DOMAIN-SUFFIX,meimuyingxiao.com
   - DOMAIN-SUFFIX,meishiffx.online
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,melecode.com
@@ -755,6 +762,7 @@ payload:
   - DOMAIN-SUFFIX,pvz1.com
   - DOMAIN-SUFFIX,pwithe.com
   - DOMAIN-SUFFIX,pziqna.net
+  - DOMAIN-SUFFIX,qdgsny.com
   - DOMAIN-SUFFIX,qianfan.app
   - DOMAIN-SUFFIX,qiankunshopping.com
   - DOMAIN-SUFFIX,qianuni.com
@@ -841,6 +849,7 @@ payload:
   - DOMAIN-SUFFIX,spst1.com
   - DOMAIN-SUFFIX,sptv.ii00.cc
   - DOMAIN-SUFFIX,ssjj2.com
+  - DOMAIN-SUFFIX,stargame.group
   - DOMAIN-SUFFIX,starlink.uno
   - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,staticmeow.com
@@ -969,6 +978,7 @@ payload:
   - DOMAIN-SUFFIX,wlups.com
   - DOMAIN-SUFFIX,wologic.net
   - DOMAIN-SUFFIX,wpurl.cc
+  - DOMAIN-SUFFIX,wt2zxk.com
   - DOMAIN-SUFFIX,wty-yy.top
   - DOMAIN-SUFFIX,wuhanjijin.com
   - DOMAIN-SUFFIX,wwwh.eu.org
