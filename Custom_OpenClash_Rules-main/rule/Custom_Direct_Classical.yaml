@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1175
+# TOTAL: 1185
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,03241119.xyz
   - DOMAIN-SUFFIX,0734cn.top
   - DOMAIN-SUFFIX,0759mall.com
+  - DOMAIN-SUFFIX,08137tabw.com
   - DOMAIN-SUFFIX,10fuzhu.com
   - DOMAIN-SUFFIX,10laodian.com
   - DOMAIN-SUFFIX,112114.eu.org
@@ -24,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,153532.com
   - DOMAIN-SUFFIX,17van.com
   - DOMAIN-SUFFIX,1996999.xyz
+  - DOMAIN-SUFFIX,1o057bolbb.com
   - DOMAIN-SUFFIX,204cloud.com
   - DOMAIN-SUFFIX,225284.xyz
   - DOMAIN-SUFFIX,25mao.com
@@ -32,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,365ting.com
   - DOMAIN-SUFFIX,365wp.top
   - DOMAIN-SUFFIX,3688baihuo.com
+  - DOMAIN-SUFFIX,37rk0rihje.com
   - DOMAIN-SUFFIX,3ced.top
   - DOMAIN-SUFFIX,3d-apollo.com
   - DOMAIN-SUFFIX,3dwhere.com
@@ -257,6 +260,7 @@ payload:
   - DOMAIN-SUFFIX,crtyhr.com
   - DOMAIN-SUFFIX,csqaq.com
   - DOMAIN-SUFFIX,csrqoa.com
+  - DOMAIN-SUFFIX,ctzpj.com
   - DOMAIN-SUFFIX,cyberpig.tech
   - DOMAIN-SUFFIX,cydiabc.top
   - DOMAIN-SUFFIX,cym520.top
@@ -328,6 +332,7 @@ payload:
   - DOMAIN-SUFFIX,exiliumgf.com
   - DOMAIN-SUFFIX,eye4cloud.com
   - DOMAIN-SUFFIX,eyosc.com
+  - DOMAIN-SUFFIX,f691ax6.cc
   - DOMAIN-SUFFIX,faka163.com
   - DOMAIN-SUFFIX,fastify.cc
   - DOMAIN-SUFFIX,fb71ef91e1014.beer
@@ -564,6 +569,7 @@ payload:
   - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,itptg.com
   - DOMAIN-SUFFIX,itui.cc
+  - DOMAIN-SUFFIX,iya365.com
   - DOMAIN-SUFFIX,jbsy20riz9.com
   - DOMAIN-SUFFIX,jduoduo.com
   - DOMAIN-SUFFIX,jfjt.cc
@@ -663,6 +669,7 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,maticooads.com
   - DOMAIN-SUFFIX,maxdo.tech
+  - DOMAIN-SUFFIX,mb518.com
   - DOMAIN-SUFFIX,mblyun.com
   - DOMAIN-SUFFIX,mbm06.com
   - DOMAIN-SUFFIX,mc-user.com
@@ -734,6 +741,7 @@ payload:
   - DOMAIN-SUFFIX,no-mad-sub.one
   - DOMAIN-SUFFIX,nodcloud.com
   - DOMAIN-SUFFIX,noyer.eu.org
+  - DOMAIN-SUFFIX,nq6jitu4y.com
   - DOMAIN-SUFFIX,nuanxinhm.com
   - DOMAIN-SUFFIX,nwiztech.com
   - DOMAIN-SUFFIX,nxog.fun
@@ -938,6 +946,7 @@ payload:
   - DOMAIN-SUFFIX,tgpro.top
   - DOMAIN-SUFFIX,thejoyridegames.com
   - DOMAIN-SUFFIX,theluyuan.com
+  - DOMAIN-SUFFIX,theshikilab.com
   - DOMAIN-SUFFIX,theuwa.com
   - DOMAIN-SUFFIX,thinkerride.com
   - DOMAIN-SUFFIX,thispx.com
@@ -1158,6 +1167,7 @@ payload:
   - DOMAIN-SUFFIX,zuidazym3u8.com
   - DOMAIN-SUFFIX,zuobiao.press
   - DOMAIN-SUFFIX,zxp7.cc
+  - DOMAIN-SUFFIX,zxstech.com
   - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,zyyct.com
   - DOMAIN-SUFFIX,zzclass.com
