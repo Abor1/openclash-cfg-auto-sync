@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1278
+# TOTAL: 1275
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -151,7 +151,6 @@ payload:
   - DOMAIN-SUFFIX,aocdisplays.com
   - DOMAIN-SUFFIX,aoxox.com
   - DOMAIN-SUFFIX,ap-leasing.com
-  - DOMAIN-SUFFIX,api.myip.com
   - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
   - DOMAIN-SUFFIX,appracle.com
   - DOMAIN-SUFFIX,aqtwwx.net
@@ -236,8 +235,6 @@ payload:
   - DOMAIN-SUFFIX,chatlabs.net
   - DOMAIN-SUFFIX,chaxunjiao.com
   - DOMAIN-SUFFIX,chaz.fun
-  - DOMAIN-SUFFIX,checkip.dyndns.org
-  - DOMAIN-SUFFIX,checkipv6.dyndns.org
   - DOMAIN-SUFFIX,chengguodj.com
   - DOMAIN-SUFFIX,chenyuxia.com
   - DOMAIN-SUFFIX,cheriexsky.love
@@ -437,7 +434,6 @@ payload:
   - DOMAIN-SUFFIX,github.moeyy.xyz
   - DOMAIN-SUFFIX,github.site
   - DOMAIN-SUFFIX,github.store
-  - DOMAIN-SUFFIX,giveup.top
   - DOMAIN-SUFFIX,gjjwgp3n.com
   - DOMAIN-SUFFIX,gjtool.com
   - DOMAIN-SUFFIX,gmoj.net
@@ -569,7 +565,6 @@ payload:
   - DOMAIN-SUFFIX,idphotoplus.com
   - DOMAIN-SUFFIX,idsduf.com
   - DOMAIN-SUFFIX,ifawj9hvvl.com
-  - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,ifengmap.com
   - DOMAIN-SUFFIX,ifish7.com
   - DOMAIN-SUFFIX,iflytck.com
@@ -591,8 +586,6 @@ payload:
   - DOMAIN-SUFFIX,iotrix.net
   - DOMAIN-SUFFIX,ip.plus
   - DOMAIN-SUFFIX,ip159.com
-  - DOMAIN-SUFFIX,ip6.seeip.org
-  - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,ipjrh.com
   - DOMAIN-SUFFIX,iposl.com
   - DOMAIN-SUFFIX,ipshu.com
@@ -640,6 +633,7 @@ payload:
   - DOMAIN-SUFFIX,kaipanhong.com
   - DOMAIN-SUFFIX,kamhing.net
   - DOMAIN-SUFFIX,kancaibao.com
+  - DOMAIN-SUFFIX,kanv7k.live
   - DOMAIN-SUFFIX,kanxiquan.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,kaspersky.com
@@ -651,7 +645,6 @@ payload:
   - DOMAIN-SUFFIX,kelexuexi.com
   - DOMAIN-SUFFIX,keyoo.com
   - DOMAIN-SUFFIX,kgithub.com
-  - DOMAIN-SUFFIX,kit327.com
   - DOMAIN-SUFFIX,kiwiot.com
   - DOMAIN-SUFFIX,kke.com.hk
   - DOMAIN-SUFFIX,kkmmy.com
@@ -1082,6 +1075,7 @@ payload:
   - DOMAIN-SUFFIX,vip-cdn.com
   - DOMAIN-SUFFIX,vip666ai.com
   - DOMAIN-SUFFIX,vipjiapu.com
+  - DOMAIN-SUFFIX,visaselectrewardhk.com
   - DOMAIN-SUFFIX,visionariopro.com
   - DOMAIN-SUFFIX,vlan5.com
   - DOMAIN-SUFFIX,volcanomob.com
@@ -1105,6 +1099,7 @@ payload:
   - DOMAIN-SUFFIX,wewillpro.com
   - DOMAIN-SUFFIX,wget.la
   - DOMAIN-SUFFIX,wildfirechat.net
+  - DOMAIN-SUFFIX,wirefee.site
   - DOMAIN-SUFFIX,wisecleaner.net
   - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,wlcdn88.com
@@ -1217,6 +1212,7 @@ payload:
   - DOMAIN-SUFFIX,yrqvlchq5.com
   - DOMAIN-SUFFIX,yshoufa.com
   - DOMAIN-SUFFIX,yueti.vip
+  - DOMAIN-SUFFIX,yueyouqu.com
   - DOMAIN-SUFFIX,yunqin.online
   - DOMAIN-SUFFIX,yunzuoye.net
   - DOMAIN-SUFFIX,yydsys.de
@@ -1249,6 +1245,7 @@ payload:
   - DOMAIN-SUFFIX,zllinks.com
   - DOMAIN-SUFFIX,zmaticoo.com
   - DOMAIN-SUFFIX,zmis.me
+  - DOMAIN-SUFFIX,znigddzwz.cc
   - DOMAIN-SUFFIX,znnu.com
   - DOMAIN-SUFFIX,znztv.com
   - DOMAIN-SUFFIX,zqin758.xyz
