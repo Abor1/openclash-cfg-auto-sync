@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1285
+# TOTAL: 1293
 
 payload:
   - '+.00333118.com'
@@ -73,7 +73,9 @@ payload:
   - '+.66990000.xyz'
   - '+.6apzfdx.com'
   - '+.6v520.net'
+  - '+.6z2h1lycfw.cc'
   - '+.71.am'
+  - '+.7189099.com'
   - '+.737698.xyz'
   - '+.757abc.com'
   - '+.77505113.com'
@@ -460,6 +462,7 @@ payload:
   - '+.gseen.com'
   - '+.gsgltz.com'
   - '+.gsjkjt.com'
+  - '+.gslock.com'
   - '+.gsnhcg.com'
   - '+.gsstic.com'
   - '+.gta5max.com'
@@ -614,6 +617,7 @@ payload:
   - '+.jfyxw.com'
   - '+.jh96095.com'
   - '+.jiangningwater.com'
+  - '+.jiangyuxj.com'
   - '+.jianzhixiaoke.net'
   - '+.jiaoyanyun.com'
   - '+.jieyoutsg.com'
@@ -707,6 +711,7 @@ payload:
   - '+.lsposed.zip'
   - '+.lty02.com'
   - '+.lucky.gd'
+  - '+.lujiangct.top'
   - '+.luxiangwu.com'
   - '+.lw5.co'
   - '+.lx51ib3szv.cc'
@@ -756,6 +761,7 @@ payload:
   - '+.minekuai.com'
   - '+.minor-api-os.hoyoverse.com'
   - '+.miraiemby.com'
+  - '+.misoso.cc'
   - '+.mixly.org'
   - '+.mobai.sbs'
   - '+.mobbananagame.com'
@@ -837,6 +843,7 @@ payload:
   - '+.paijitang.com'
   - '+.pailedi.com'
   - '+.panjue.com'
+  - '+.panso.vip'
   - '+.paojiaoyun.com'
   - '+.paperang.com'
   - '+.passnat.com'
@@ -1128,6 +1135,7 @@ payload:
   - '+.woca.fun'
   - '+.wologic.net'
   - '+.wpurl.cc'
+  - '+.wpys.cc'
   - '+.wshifen.com'
   - '+.wt2zxk.com'
   - '+.wty-yy.top'
