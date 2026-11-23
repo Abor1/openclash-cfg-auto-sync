@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1308
+# TOTAL: 1313
 
 payload:
   - DOMAIN-KEYWORD,m-team
@@ -128,6 +128,7 @@ payload:
   - DOMAIN-SUFFIX,agi2rjr.cc
   - DOMAIN-SUFFIX,ahlt10010.com
   - DOMAIN-SUFFIX,aibeike.com
+  - DOMAIN-SUFFIX,aibox.eu.org
   - DOMAIN-SUFFIX,aichangbaishan.com
   - DOMAIN-SUFFIX,aidien.fun
   - DOMAIN-SUFFIX,aidream.website
@@ -378,6 +379,7 @@ payload:
   - DOMAIN-SUFFIX,fengda.me
   - DOMAIN-SUFFIX,fengsutb.com
   - DOMAIN-SUFFIX,fenno.ai
+  - DOMAIN-SUFFIX,fexsqz.com
   - DOMAIN-SUFFIX,fffff.games
   - DOMAIN-SUFFIX,ffhome.com
   - DOMAIN-SUFFIX,fgaiservice.com
@@ -622,6 +624,7 @@ payload:
   - DOMAIN-SUFFIX,jiangningwater.com
   - DOMAIN-SUFFIX,jiangyuxj.com
   - DOMAIN-SUFFIX,jianzhixiaoke.net
+  - DOMAIN-SUFFIX,jiaohukejian.com
   - DOMAIN-SUFFIX,jiaoyanyun.com
   - DOMAIN-SUFFIX,jieyoutsg.com
   - DOMAIN-SUFFIX,jieyunwangluokeji.com
@@ -807,6 +810,7 @@ payload:
   - DOMAIN-SUFFIX,njonemall.com
   - DOMAIN-SUFFIX,nkxingxh.top
   - DOMAIN-SUFFIX,nlyd.club
+  - DOMAIN-SUFFIX,nmjsjs.com
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,no-mad-sub.one
   - DOMAIN-SUFFIX,nodcloud.com
@@ -1127,6 +1131,7 @@ payload:
   - DOMAIN-SUFFIX,wewillpro.com
   - DOMAIN-SUFFIX,wget.la
   - DOMAIN-SUFFIX,wildfirechat.net
+  - DOMAIN-SUFFIX,windinput.com
   - DOMAIN-SUFFIX,wirefee.site
   - DOMAIN-SUFFIX,wisecleaner.net
   - DOMAIN-SUFFIX,wjx.top

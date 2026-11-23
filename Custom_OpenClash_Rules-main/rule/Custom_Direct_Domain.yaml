@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
 # SOURCE: https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 1293
+# TOTAL: 1298
 
 payload:
   - '+.00333118.com'
@@ -125,6 +125,7 @@ payload:
   - '+.agi2rjr.cc'
   - '+.ahlt10010.com'
   - '+.aibeike.com'
+  - '+.aibox.eu.org'
   - '+.aichangbaishan.com'
   - '+.aidien.fun'
   - '+.aidream.website'
@@ -375,6 +376,7 @@ payload:
   - '+.fengda.me'
   - '+.fengsutb.com'
   - '+.fenno.ai'
+  - '+.fexsqz.com'
   - '+.fffff.games'
   - '+.ffhome.com'
   - '+.fgaiservice.com'
@@ -619,6 +621,7 @@ payload:
   - '+.jiangningwater.com'
   - '+.jiangyuxj.com'
   - '+.jianzhixiaoke.net'
+  - '+.jiaohukejian.com'
   - '+.jiaoyanyun.com'
   - '+.jieyoutsg.com'
   - '+.jieyunwangluokeji.com'
@@ -804,6 +807,7 @@ payload:
   - '+.njonemall.com'
   - '+.nkxingxh.top'
   - '+.nlyd.club'
+  - '+.nmjsjs.com'
   - '+.nn.ci'
   - '+.no-mad-sub.one'
   - '+.nodcloud.com'
@@ -1124,6 +1128,7 @@ payload:
   - '+.wewillpro.com'
   - '+.wget.la'
   - '+.wildfirechat.net'
+  - '+.windinput.com'
   - '+.wirefee.site'
   - '+.wisecleaner.net'
   - '+.wjx.top'
