@@ -338,6 +338,28 @@ DOMAIN-SUFFIX,ahlt10010.com
 # 以下是准备向 GeoSite 上游仓库提交 PR 的国内冷门域名，收录后会注释对应内容
 # ---------------------------------------
 # 以下域名待提交 PR
+# add by Rule-Bot Client / Date: 2026-11-27 19:02:55
+DOMAIN-SUFFIX,tjfuxinjia.com
+# add by Rule-Bot Client / Date: 2026-11-27 19:02:36
+DOMAIN-SUFFIX,zhijiwenhua.xyz
+# add by Rule-Bot Client / Date: 2026-11-27 17:45:36
+DOMAIN-SUFFIX,gtl-test.com
+# add by Rule-Bot Client / Date: 2026-11-27 15:49:12
+DOMAIN-SUFFIX,fitkingshop.com
+# add by Rule-Bot Client / Date: 2026-11-27 00:19:12
+DOMAIN-SUFFIX,yjshai.com
+# add by Rule-Bot Client / Date: 2026-11-27 00:01:33
+DOMAIN-SUFFIX,26531313.com
+# add by Rule-Bot Client / Date: 2026-11-27 00:00:35
+DOMAIN-SUFFIX,chengguo4.com
+# add by Rule-Bot Client / Date: 2026-11-26 23:59:15
+DOMAIN-SUFFIX,41563901.com
+# add by Rule-Bot Client / Date: 2026-11-26 23:59:10
+DOMAIN-SUFFIX,14590562.com
+# add by Rule-Bot Client / Date: 2026-11-26 23:58:46
+DOMAIN-SUFFIX,60601826.com
+# add by Rule-Bot Client / Date: 2026-11-26 23:37:19
+DOMAIN-SUFFIX,mssxapp.com
 # add by Rule-Bot Client / Date: 2026-11-26 19:38:25
 DOMAIN-SUFFIX,gulufenfa.com
 # add by Rule-Bot Client / Date: 2026-11-26 16:45:05
@@ -1396,8 +1418,6 @@ DOMAIN-SUFFIX,mfdqsc.com
 DOMAIN-SUFFIX,founderyt.com
 # add by Rule-Bot Client / Date: 2026-08-31 16:14:12
 DOMAIN-SUFFIX,myfenghua.com
-# add by Rule-Bot Client / Date: 2026-08-31 13:22:09
-DOMAIN-SUFFIX,mypikpak.net
 # add by Rule-Bot Client / Date: 2026-08-31 12:27:46
 DOMAIN-SUFFIX,calmate.cc
 # add by Rule-Bot Client / Date: 2026-08-31 12:18:05
